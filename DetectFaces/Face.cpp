@@ -21,7 +21,8 @@ void Face::makeCoordinates()
 
 void Face::convertMouthCoordinatesFromRoiToImage(Mat inputImage)
 {
-	Mat mouthROI = inputImage(Rect(rectangle.x, rectangle.y + rectangle.height * 0.66, rectangle.width, rectangle.height / 3));
+	double mouthRoiCoefficient = 0.66;
+	Mat mouthROI = inputImage(Rect(rectangle.x, rectangle.y + rectangle.height * mouthRoiCoefficient, rectangle.width, rectangle.height / 3));
 	Point offset;
 	Size wholesize;
 	Mat img(mouthROI, mouth);
@@ -33,7 +34,8 @@ void Face::convertMouthCoordinatesFromRoiToImage(Mat inputImage)
 
 void Face::convertEyesCoordinatesFromRoiToImage(Mat inputImage)
 {
-	Mat eyesROI = inputImage(Rect(rectangle.x, rectangle.y + rectangle.height * 0.19, rectangle.width, rectangle.height / 3));
+	double eyesRoiCoefficient = 0.19;
+	Mat eyesROI = inputImage(Rect(rectangle.x, rectangle.y + rectangle.height * eyesRoiCoefficient, rectangle.width, rectangle.height / 3));
 	for (int i = 0; i < eyes.size(); i++)
 	{
 		Point offset;
@@ -68,16 +70,16 @@ vector<Point> Face::getMouthCoordinates()
 
 vector<Point> Face::getCoordinatesFromRectangle(Rect area)
 {	
-			vector<Point> areaCoordinates;
-			Point point1(area.x, area.y);
-			areaCoordinates.push_back(point1);
-			Point point2(area.x, area.y + area.width);
-			areaCoordinates.push_back(point2);
-			Point point3(area.x + area.height, area.y);
-			areaCoordinates.push_back(point3);
-			Point point4(area.x + area.height, area.y + area.width);
-			areaCoordinates.push_back(point4);
-			return areaCoordinates;
+	vector<Point> areaCoordinates;
+	Point point1(area.x, area.y);
+	areaCoordinates.push_back(point1);
+	Point point2(area.x, area.y + area.width);
+	areaCoordinates.push_back(point2);
+	Point point3(area.x + area.height, area.y);
+	areaCoordinates.push_back(point3);
+	Point point4(area.x + area.height, area.y + area.width);
+	areaCoordinates.push_back(point4);
+	return areaCoordinates;
 }
 
 Face::Face()
