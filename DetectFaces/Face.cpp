@@ -70,16 +70,16 @@ vector<Point> Face::getMouthCoordinates()
 
 vector<Point> Face::getCoordinatesFromRectangle(Rect area)
 {	
-			vector<Point> areaCoordinates;
-			Point point1(area.x, area.y);
-			areaCoordinates.push_back(point1);
-			Point point2(area.x, area.y + area.width);
-			areaCoordinates.push_back(point2);
-			Point point3(area.x + area.height, area.y);
-			areaCoordinates.push_back(point3);
-			Point point4(area.x + area.height, area.y + area.width);
-			areaCoordinates.push_back(point4);
-			return areaCoordinates;
+	vector<Point> areaCoordinates;
+	Point point1(area.x, area.y);
+	areaCoordinates.push_back(point1);
+	Point point2(area.x, area.y + area.width);
+	areaCoordinates.push_back(point2);
+	Point point3(area.x + area.height, area.y);
+	areaCoordinates.push_back(point3);
+	Point point4(area.x + area.height, area.y + area.width);
+	areaCoordinates.push_back(point4);
+	return areaCoordinates;
 }
 
 Face::Face()
