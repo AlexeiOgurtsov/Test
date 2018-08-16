@@ -1,0 +1,12 @@
+﻿  detectingFaces.cpp
+c:\users\alex\source\repos\test\detecting faces\detectingfaces.cpp(1): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
+  Detector.cpp
+c:\users\alex\source\repos\test\detecting faces\detector.h(3): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
+  Face.cpp
+c:\users\alex\source\repos\test\detecting faces\face.h(3): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
+  functionResult.cpp
+  JsonWriter.cpp
+c:\users\alex\source\repos\test\detecting faces\jsonwriter.h(1): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
+  main.cpp
+c:\users\alex\source\repos\test\detecting faces\main.cpp(1): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory
+  Generating Code...

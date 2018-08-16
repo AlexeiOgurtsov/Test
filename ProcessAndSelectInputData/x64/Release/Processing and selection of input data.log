@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(6): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(6): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\experimental\filesystem(28): note: see declaration of 'std'
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(6): error C2065: 'path': undeclared identifier
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(6): error C2146: syntax error: missing ')' before identifier 'folderPath'
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(22): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(22): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\experimental\filesystem(28): note: see declaration of 'std'
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(22): error C2065: 'path': undeclared identifier
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(22): error C2146: syntax error: missing ')' before identifier 'folderPath'
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(23): error C2143: syntax error: missing ';' before '{'
+c:\users\alex\source\repos\test\processing and selection of input data\main.cpp(23): error C2447: '{': missing function header (old-style formal list?)

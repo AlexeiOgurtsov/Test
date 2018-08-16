@@ -1,0 +1,1211 @@
+ ProcessingAndSelectionOfInputData
+
+ Timestamp is 5b752fb1 (Thu Aug 16 11:02:57 2018)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008180H .text$mn                CODE
+ 0001:00008180 000005cbH .text$x                 CODE
+ 0002:00000000 0000014cH .idata$5                DATA
+ 0002:0000014c 00000004H .00cfg                  DATA
+ 0002:00000150 00000004H .CRT$XCA                DATA
+ 0002:00000154 00000004H .CRT$XCAA               DATA
+ 0002:00000158 00000004H .CRT$XCZ                DATA
+ 0002:0000015c 00000004H .CRT$XIA                DATA
+ 0002:00000160 00000004H .CRT$XIAA               DATA
+ 0002:00000164 00000004H .CRT$XIAC               DATA
+ 0002:00000168 00000004H .CRT$XIZ                DATA
+ 0002:0000016c 00000004H .CRT$XPA                DATA
+ 0002:00000170 00000004H .CRT$XPZ                DATA
+ 0002:00000174 00000004H .CRT$XTA                DATA
+ 0002:00000178 00000008H .CRT$XTZ                DATA
+ 0002:0000017c 00000000H .gfids$y                DATA
+ 0002:00000180 000004d0H .rdata                  DATA
+ 0002:00000650 000003c0H .rdata$r                DATA
+ 0002:00000a10 00000078H .rdata$sxdata           DATA
+ 0002:00000a88 00000314H .rdata$zzzdbg           DATA
+ 0002:00000d9c 00000004H .rtc$IAA                DATA
+ 0002:00000da0 00000004H .rtc$IZZ                DATA
+ 0002:00000da4 00000004H .rtc$TAA                DATA
+ 0002:00000da8 00000008H .rtc$TZZ                DATA
+ 0002:00000db0 000006a0H .xdata$x                DATA
+ 0002:00001450 00000080H .edata                  DATA
+ 0002:000014d0 000000b4H .idata$2                DATA
+ 0002:00001584 00000014H .idata$3                DATA
+ 0002:00001598 0000014cH .idata$4                DATA
+ 0002:000016e4 000006f8H .idata$6                DATA
+ 0003:00000000 00000020H .data                   DATA
+ 0003:00000020 000001f0H .data$r                 DATA
+ 0003:00000210 0000039cH .bss                    DATA
+ 0004:00000000 00000060H .rsrc$01                DATA
+ 0004:00000060 00000180H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:0000001e       ___safe_se_handler_count   0000001e     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       _wmemcpy                   00401000 f i getImportFunctionName.obj
+ 0001:00000020       ?getImportFunctionName@@YAP6A?AV?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Vpath@filesystem@2@@ZXZ 00401020 f   getImportFunctionName.obj
+ 0001:00000050       _wmemset                   00401050 f i main.obj
+ 0001:00000090       ?max_size@?$_Default_allocator_traits@V?$allocator@_W@std@@@std@@SAIABV?$allocator@_W@2@@Z 00401090 f i main.obj
+ 0001:00000090       ?max@?$numeric_limits@H@std@@SAHXZ 00401090 f i main.obj
+ 0001:000000a0       ??0exception@std@@QAE@QBD@Z 004010a0 f i main.obj
+ 0001:00000100       ??0exception@std@@QAE@ABV01@@Z 00401100 f i main.obj
+ 0001:00000140       ??1exception@std@@UAE@XZ   00401140 f i main.obj
+ 0001:00000170       ?what@exception@std@@UBEPBDXZ 00401170 f i main.obj
+ 0001:000001a0       ??_Gexception@std@@UAEPAXI@Z 004011a0 f i main.obj
+ 0001:000001a0       ??_Eexception@std@@UAEPAXI@Z 004011a0 f i * CIL library *:* CIL module *
+ 0001:000001d0       ??2@YAPAXIPAX@Z            004011d0 f i main.obj
+ 0001:000001e0       ?length@?$char_traits@D@std@@SAIQBD@Z 004011e0 f i main.obj
+ 0001:00000220       ?copy@?$char_traits@D@std@@SAPADQADQBDI@Z 00401220 f i main.obj
+ 0001:00000240       ?move@?$char_traits@D@std@@SAPADQADQBDI@Z 00401240 f i main.obj
+ 0001:00000260       ?assign@?$char_traits@D@std@@SAPADQADID@Z 00401260 f i main.obj
+ 0001:00000280       ?assign@?$char_traits@D@std@@SAXAADABD@Z 00401280 f i main.obj
+ 0001:00000290       ??1_Ref_count_base@std@@UAE@XZ 00401290 f i browseTheFolderTree.obj
+ 0001:00000290       ??1error_category@std@@UAE@XZ 00401290 f i main.obj
+ 0001:00000290       ??1_Bxty@?$_String_val@U?$_Simple_types@_W@std@@@std@@QAE@XZ 00401290 f i main.obj
+ 0001:00000290       ?_Orphan_all@_Container_base0@std@@QAEXXZ 00401290 f i main.obj
+ 0001:00000290       ??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 00401290 f i main.obj
+ 0001:000002a0       ??$addressof@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@YAPBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@ABV10@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@YA$$QAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@ABW4directory_options@filesystem@std@@@std@@YAABW4directory_options@filesystem@0@ABW4120@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$addressof@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@YAPAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@0@AAV10@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$addressof@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@YAPAV?$_String_val@U?$_Simple_types@D@std@@@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAPAV_Ref_count_base@std@@@std@@YA$$QAPAV_Ref_count_base@0@AAPAV10@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$forward@U_Creator@_Dir_enum_impl@filesystem@std@@@std@@YA$$QAU_Creator@_Dir_enum_impl@filesystem@0@AAU1230@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@@std@@YA$$QAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@AAV10@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ?select_on_container_copy_construction@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SA?AV?$allocator@D@2@ABV32@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAV?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAV?$allocator@_W@std@@@std@@YA$$QAV?$allocator@_W@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@ABV?$allocator@D@std@@@std@@YAABV?$allocator@D@0@ABV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@ABV?$allocator@_W@std@@@std@@YAABV?$allocator@_W@0@ABV10@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$addressof@PAD@std@@YAPAPADAAPAD@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$_Unchecked@PB_W@std@@YAPB_WPB_W@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAU_Creator@_Dir_enum_impl@filesystem@std@@@std@@YA$$QAU_Creator@_Dir_enum_impl@filesystem@0@AAU1230@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$addressof@PA_W@std@@YAPAPA_WAAPA_W@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@ABQAD@std@@YAABQADABQAD@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@ABQA_W@std@@YAABQA_WABQA_W@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$_Unfancy@D@std@@YAPADPAD@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAPAU_Dir_enum_impl@filesystem@std@@@std@@YA$$QAPAU_Dir_enum_impl@filesystem@0@AAPAU120@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAVpath@filesystem@std@@@std@@YA$$QAVpath@filesystem@0@AAV120@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAU_Find_file_handle@filesystem@std@@@std@@YA$$QAU_Find_file_handle@filesystem@0@AAU120@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ?select_on_container_copy_construction@?$_Default_allocator_traits@V?$allocator@_W@std@@@std@@SA?AV?$allocator@_W@2@ABV32@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$addressof@V?$_String_val@U?$_Simple_types@_W@std@@@std@@@std@@YAPAV?$_String_val@U?$_Simple_types@_W@std@@@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$_Get_size_of_n@$00@std@@YAII@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@W4__std_fs_dir_handle@@@std@@YA$$QAW4__std_fs_dir_handle@@AAW41@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$_Unfancy@_W@std@@YAPA_WPA_W@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$_Convert_size@I@std@@YAII@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$forward@V?$allocator@_W@std@@@std@@YA$$QAV?$allocator@_W@0@AAV10@@Z 004012a0 f i main.obj
+ 0001:000002a0       ??$move@AAW4__std_fs_dir_handle@@@std@@YA$$QAW4__std_fs_dir_handle@@AAW41@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002a0       ??$move@AAVdirectory_iterator@filesystem@std@@@std@@YA$$QAVdirectory_iterator@filesystem@0@AAV120@@Z 004012a0 f i browseTheFolderTree.obj
+ 0001:000002b0       ?_Allocate@_Default_allocate_traits@std@@SAPAXI@Z 004012b0 f i main.obj
+ 0001:000002d0       ?_Adjust_manually_vector_aligned@std@@YAXAAPAXAAI@Z 004012d0 f i main.obj
+ 0001:00000330       ??0runtime_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00401330 f i main.obj
+ 0001:00000360       ??_Gruntime_error@std@@UAEPAXI@Z 00401360 f i main.obj
+ 0001:00000360       ??_Eruntime_error@std@@UAEPAXI@Z 00401360 f i * CIL library *:* CIL module *
+ 0001:00000390       ??1runtime_error@std@@UAE@XZ 00401390 f i main.obj
+ 0001:000003b0       ??0runtime_error@std@@QAE@ABV01@@Z 004013b0 f i main.obj
+ 0001:000003e0       ??0error_category@std@@QAE@XZ 004013e0 f i main.obj
+ 0001:00000400       ??8error_category@std@@QBE_NABV01@@Z 00401400 f i main.obj
+ 0001:00000430       ??0?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QAE@QB_WI@Z 00401430 f i main.obj
+ 0001:00000430       ??0error_code@std@@QAE@HABVerror_category@1@@Z 00401430 f i main.obj
+ 0001:00000430       ??0?$basic_string_view@DU?$char_traits@D@std@@@std@@QAE@QBDI@Z 00401430 f i main.obj
+ 0001:00000430       ??0error_condition@std@@QAE@HABVerror_category@1@@Z 00401430 f i main.obj
+ 0001:00000460       ?value@error_condition@std@@QBEHXZ 00401460 f i main.obj
+ 0001:00000460       ?type@file_status@filesystem@std@@QBE?AW4file_type@23@XZ 00401460 f i browseTheFolderTree.obj
+ 0001:00000460       ?data@?$basic_string_view@DU?$char_traits@D@std@@@std@@QBEPBDXZ 00401460 f i main.obj
+ 0001:00000460       ?value@error_code@std@@QBEHXZ 00401460 f i main.obj
+ 0001:00000460       ?get@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IBEPAU_Dir_enum_impl@filesystem@2@XZ 00401460 f i browseTheFolderTree.obj
+ 0001:00000460       ?data@?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QBEPB_WXZ 00401460 f i main.obj
+ 0001:00000470       ?size@?$basic_string_view@DU?$char_traits@D@std@@@std@@QBEIXZ 00401470 f i main.obj
+ 0001:00000470       ?category@error_condition@std@@QBEABVerror_category@2@XZ 00401470 f i main.obj
+ 0001:00000470       ?category@error_code@std@@QBEABVerror_category@2@XZ 00401470 f i main.obj
+ 0001:00000470       ?size@?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QBEIXZ 00401470 f i main.obj
+ 0001:00000490       ?message@error_code@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ 00401490 f i main.obj
+ 0001:000004e0       ??8std@@YA_NABVerror_condition@0@0@Z 004014e0 f i main.obj
+ 0001:00000540       ?default_error_condition@error_category@std@@UBE?AVerror_condition@2@H@Z 00401540 f i main.obj
+ 0001:00000560       ?equivalent@error_category@std@@UBE_NHABVerror_condition@2@@Z 00401560 f i main.obj
+ 0001:000005a0       ?equivalent@error_category@std@@UBE_NABVerror_code@2@H@Z 004015a0 f i main.obj
+ 0001:000005f0       ?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z 004015f0 f i main.obj
+ 0001:00000610       ?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z 00401610 f i main.obj
+ 0001:000006d0       ??0_System_error@std@@IAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004016d0 f i main.obj
+ 0001:00000780       ??_G_System_error@std@@UAEPAXI@Z 00401780 f i main.obj
+ 0001:00000780       ??_E_System_error@std@@UAEPAXI@Z 00401780 f i * CIL library *:* CIL module *
+ 0001:000007b0       ??1_System_error@std@@UAE@XZ 004017b0 f i main.obj
+ 0001:000007d0       ??0system_error@std@@QAE@Verror_code@1@@Z 004017d0 f i main.obj
+ 0001:00000850       ??_Esystem_error@std@@UAEPAXI@Z 00401850 f i * CIL library *:* CIL module *
+ 0001:00000850       ??_Gsystem_error@std@@UAEPAXI@Z 00401850 f i main.obj
+ 0001:00000880       ??1system_error@std@@UAE@XZ 00401880 f i main.obj
+ 0001:000008a0       ??0_Generic_error_category@std@@QAE@XZ 004018a0 f i main.obj
+ 0001:000008d0       ?name@_Generic_error_category@std@@UBEPBDXZ 004018d0 f i main.obj
+ 0001:000008e0       ?message@_Generic_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 004018e0 f i main.obj
+ 0001:00000920       ??_E_System_error_category@std@@UAEPAXI@Z 00401920 f i * CIL library *:* CIL module *
+ 0001:00000920       ??_G_System_error_category@std@@UAEPAXI@Z 00401920 f i main.obj
+ 0001:00000920       ??_G_Generic_error_category@std@@UAEPAXI@Z 00401920 f i main.obj
+ 0001:00000920       ??_E_Generic_error_category@std@@UAEPAXI@Z 00401920 f i * CIL library *:* CIL module *
+ 0001:00000950       ??1?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@UAE@XZ 00401950 f i browseTheFolderTree.obj
+ 0001:00000950       ??1_Generic_error_category@std@@UAE@XZ 00401950 f i main.obj
+ 0001:00000950       ??1_System_error_category@std@@UAE@XZ 00401950 f i main.obj
+ 0001:00000950       ??1?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 00401950 f i main.obj
+ 0001:00000950       ??1?$_String_val@U?$_Simple_types@_W@std@@@std@@QAE@XZ 00401950 f i main.obj
+ 0001:00000970       ??0_System_error_category@std@@QAE@XZ 00401970 f i main.obj
+ 0001:000009a0       ?name@_System_error_category@std@@UBEPBDXZ 004019a0 f i main.obj
+ 0001:000009b0       ?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 004019b0 f i main.obj
+ 0001:00000a90       ?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z 00401a90 f i main.obj
+ 0001:00000b10       ?generic_category@std@@YAABVerror_category@1@XZ 00401b10 f i main.obj
+ 0001:00000b50       ?system_category@std@@YAABVerror_category@1@XZ 00401b50 f i main.obj
+ 0001:00000b90       ??0system_error@std@@QAE@ABV01@@Z 00401b90 f i main.obj
+ 0001:00000bc0       ??0_System_error@std@@QAE@ABV01@@Z 00401bc0 f i main.obj
+ 0001:00000c00       ?stoul@std@@YAKABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PAIH@Z 00401c00 f i main.obj
+ 0001:00000c90       ?_Xsystem_error_invalid_argument@filesystem@std@@YAXXZ 00401c90 f i main.obj
+ 0001:00000cd0       ?_Make_ec@filesystem@std@@YA?AVerror_code@2@W4__std_win_error@@@Z 00401cd0 f i main.obj
+ 0001:00000d00       ?_Check_convert_result@filesystem@std@@YAHU__std_fs_convert_result@@@Z 00401d00 f i main.obj
+ 0001:00000d40       ?_Convert_narrow_to_wide@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@W4__std_code_page@@V?$basic_string_view@DU?$char_traits@D@std@@@2@@Z 00401d40 f i main.obj
+ 0001:00000e70       ?u8string@path@filesystem@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@XZ 00401e70 f i main.obj
+ 0001:00000ec0       ??1path@filesystem@std@@QAE@XZ 00401ec0 f i main.obj
+ 0001:00000ee0       ??0path@filesystem@std@@QAE@ABV012@@Z 00401ee0 f i main.obj
+ 0001:00000f00       _main                      00401f00 f   main.obj
+ 0001:00001010       ?_Orphan_all@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAEXXZ 00402010 f i main.obj
+ 0001:00001010       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEXXZ 00402010 f i browseTheFolderTree.obj
+ 0001:00001010       ?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ 00402010 f i main.obj
+ 0001:00001030       ?resize@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXI_W@Z 00402030 f i main.obj
+ 0001:00001080       ?max_size@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEIXZ 00402080 f i main.obj
+ 0001:00001100       ??$_Max_value@I@std@@YAABIABI0@Z 00402100 f i main.obj
+ 0001:00001130       ?size@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEIXZ 00402130 f i main.obj
+ 0001:00001130       ?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 00402130 f i main.obj
+ 0001:00001150       ?c_str@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 00402150 f i browseTheFolderTree.obj
+ 0001:00001150       ?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEPA_WXZ 00402150 f i main.obj
+ 0001:00001150       ?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 00402150 f i browseTheFolderTree.obj
+ 0001:000011a0       ??B?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBE?AV?$basic_string_view@_WU?$char_traits@_W@std@@@1@XZ 004021a0 f i main.obj
+ 0001:00001200       ??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 00402200 f i main.obj
+ 0001:00001250       ??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@$$QAV01@@Z 00402250 f i main.obj
+ 0001:000012d0       ??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 004022d0 f i main.obj
+ 0001:00001320       ??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z 00402320 f i main.obj
+ 0001:000013a0       ?empty@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE_NXZ 004023a0 f i main.obj
+ 0001:000013d0       ?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXID@Z 004023d0 f i main.obj
+ 0001:00001420       ?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00402420 f i main.obj
+ 0001:00001420       ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00402420 f i main.obj
+ 0001:00001420       ?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ 00402420 f i main.obj
+ 0001:00001470       ??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z 00402470 f i main.obj
+ 0001:000014a0       ?shrink_to_fit@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 004024a0 f i main.obj
+ 0001:000015a0       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBD@Z 004025a0 f i main.obj
+ 0001:000015d0       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 004025d0 f i main.obj
+ 0001:00001610       ??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@QBD@Z 00402610 f i main.obj
+ 0001:00001630       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00402630 f i main.obj
+ 0001:00001680       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00402680 f i main.obj
+ 0001:00001700       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00402700 f i main.obj
+ 0001:00001770       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00402770 f i main.obj
+ 0001:000017e0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 004027e0 f i main.obj
+ 0001:00001860       ?empty@?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QBE_NXZ 00402860 f i main.obj
+ 0001:00001860       ?empty@?$basic_string_view@DU?$char_traits@D@std@@@std@@QBE_NXZ 00402860 f i main.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAEAAV?$_String_val@U?$_Simple_types@_W@std@@@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@V?$Point_@H@cv@@@std@@V?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@XZ 00402890 f i browseTheFolderTree.obj
+ 0001:00001890       ?_Get_first@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QBEABV?$allocator@_W@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$allocator@D@2@XZ 00402890 f i main.obj
+ 0001:00001890       ??0?$allocator@_W@std@@QAE@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_first@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAEAAV?$allocator@_W@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@V?$Point_@H@cv@@@std@@V?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@XZ 00402890 f i browseTheFolderTree.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_first@?$_Compressed_pair@V?$allocator@V?$Point_@H@cv@@@std@@V?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@$00@std@@QAEAAV?$allocator@V?$Point_@H@cv@@@2@XZ 00402890 f i browseTheFolderTree.obj
+ 0001:00001890       ??0?$allocator@D@std@@QAE@XZ 00402890 f i main.obj
+ 0001:00001890       ??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 00402890 f i main.obj
+ 0001:00001890       ??0_Bxty@?$_String_val@U?$_Simple_types@_W@std@@@std@@QAE@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$allocator@D@2@XZ 00402890 f i main.obj
+ 0001:00001890       ?_Get_second@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QBEABV?$_String_val@U?$_Simple_types@_W@std@@@2@XZ 00402890 f i main.obj
+ 0001:000018a0       ??1?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAE@XZ 004028a0 f i main.obj
+ 0001:000018a0       ??1?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@XZ 004028a0 f i main.obj
+ 0001:000018c0       ??1?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@XZ 004028c0 f i main.obj
+ 0001:000018c0       ??1?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAE@XZ 004028c0 f i main.obj
+ 0001:000018e0       ?_Large_string_engaged@?$_String_val@U?$_Simple_types@_W@std@@@std@@QBE_NXZ 004028e0 f i main.obj
+ 0001:00001910       ?_Myptr@?$_String_val@U?$_Simple_types@_W@std@@@std@@QAEPA_WXZ 00402910 f i main.obj
+ 0001:00001910       ?_Myptr@?$_String_val@U?$_Simple_types@_W@std@@@std@@QBEPB_WXZ 00402910 f i main.obj
+ 0001:00001950       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEAAV?$allocator@V?$Point_@H@cv@@@2@XZ 00402950 f i browseTheFolderTree.obj
+ 0001:00001950       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@XZ 00402950 f i browseTheFolderTree.obj
+ 0001:00001950       ?_Get_data@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QBEABV?$_String_val@U?$_Simple_types@_W@std@@@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Getal@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAEAAV?$allocator@_W@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$allocator@D@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Getal@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QBEABV?$allocator@_W@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@V?$Point_@H@cv@@@std@@@2@XZ 00402950 f i browseTheFolderTree.obj
+ 0001:00001950       ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$allocator@D@2@XZ 00402950 f i main.obj
+ 0001:00001950       ?_Get_data@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAEAAV?$_String_val@U?$_Simple_types@_W@std@@@2@XZ 00402950 f i main.obj
+ 0001:00001970       ??0?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAE@XZ 00402970 f i main.obj
+ 0001:00001970       ??0?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@XZ 00402970 f i main.obj
+ 0001:00001990       ?_Large_string_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QBE_NXZ 00402990 f i main.obj
+ 0001:000019c0       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ 004029c0 f i main.obj
+ 0001:000019c0       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ 004029c0 f i main.obj
+ 0001:00001a00       ?_Tidy_deallocate@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXXZ 00402a00 f i main.obj
+ 0001:00001ab0       ?_Tidy_init@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXXZ 00402ab0 f i main.obj
+ 0001:00001b00       ?_Eos@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXI@Z 00402b00 f i main.obj
+ 0001:00001b50       ?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV12@I_W@Z 00402b50 f i main.obj
+ 0001:00001c60       ?_Construct_lv_contents@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEXABV12@@Z 00402c60 f i main.obj
+ 0001:00001d80       ?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00402d80 f i main.obj
+ 0001:00001e20       ?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00402e20 f i main.obj
+ 0001:00001ed0       ?_Tidy_init@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00402ed0 f i main.obj
+ 0001:00001f20       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 00402f20 f i main.obj
+ 0001:00001f70       ?_Become_small@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 00402f70 f i main.obj
+ 0001:00002000       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 00403000 f i main.obj
+ 0001:00002080       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 00403080 f i main.obj
+ 0001:00002150       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBD@Z 00403150 f i main.obj
+ 0001:00002180       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBDI@Z 00403180 f i main.obj
+ 0001:00002250       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 00403250 f i main.obj
+ 0001:00002350       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@QBDI@Z 00403350 f i main.obj
+ 0001:00002450       ?_Construct_lv_contents@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXABV12@@Z 00403450 f i main.obj
+ 0001:00002570       ?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00403570 f i main.obj
+ 0001:00002610       ?allocate@?$allocator@D@std@@QAEPADI@Z 00403610 f i main.obj
+ 0001:00002640       ?deallocate@?$allocator@D@std@@QAEXQADI@Z 00403640 f i main.obj
+ 0001:00002660       ?assign@?$_WChar_traits@_W@std@@SAXAA_WAB_W@Z 00403660 f i main.obj
+ 0001:00002680       ?copy@?$_WChar_traits@_W@std@@SAPA_WQA_WQB_WI@Z 00403680 f i main.obj
+ 0001:000026a0       ?max_size@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z 004036a0 f i main.obj
+ 0001:000026b0       ?allocate@?$allocator@_W@std@@QAEPA_WI@Z 004036b0 f i main.obj
+ 0001:000026e0       ?deallocate@?$allocator@_W@std@@QAEXQA_WI@Z 004036e0 f i main.obj
+ 0001:00002700       ?assign@?$_WChar_traits@_W@std@@SAPA_WQA_WI_W@Z 00403700 f i main.obj
+ 0001:00002720       ??$_Min_value@I@std@@YAABIABI0@Z 00403720 f i main.obj
+ 0001:00002750       ??$_Immortalize@V_Generic_error_category@std@@@std@@YAAAV_Generic_error_category@0@XZ 00403750 f i main.obj
+ 0001:00002780       ??$_Immortalize@V_System_error_category@std@@@std@@YAAAV_System_error_category@0@XZ 00403780 f i main.obj
+ 0001:000027b0       ??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z 004037b0 f i main.obj
+ 0001:000028e0       ??$?0V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@path@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@W4format@012@@Z 004038e0 f i main.obj
+ 0001:00002910       ??$?0ABV?$allocator@_W@std@@X@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAE@ABV?$allocator@_W@1@@Z 00403910 f i browseTheFolderTree.obj
+ 0001:00002910       ??$?0V?$allocator@_W@std@@X@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAE@$$QAV?$allocator@_W@1@@Z 00403910 f i main.obj
+ 0001:00002910       ??$?0V?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@$$QAV?$allocator@D@1@@Z 00403910 f i main.obj
+ 0001:00002910       ??$?0ABV?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z 00403910 f i main.obj
+ 0001:00002940       ??$?0$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z 00403940 f i main.obj
+ 0001:00002940       ??$?0$$V@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z 00403940 f i main.obj
+ 0001:00002960       ??$destroy@PA_W@?$_Default_allocator_traits@V?$allocator@_W@std@@@std@@SAXAAV?$allocator@_W@1@QAPA_W@Z 00403960 f i main.obj
+ 0001:00002960       ??$_Destroy_range1@V?$allocator@V?$Point_@H@cv@@@std@@@std@@YAXPAV?$Point_@H@cv@@0AAV?$allocator@V?$Point_@H@cv@@@0@U?$integral_constant@_N$00@0@@Z 00403960 f i browseTheFolderTree.obj
+ 0001:00002960       ??$_Enable_shared_from_this1@U_Dir_enum_impl@filesystem@std@@U123@@std@@YAXABV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@PAU_Dir_enum_impl@filesystem@0@U?$integral_constant@_N$0A@@0@@Z 00403960 f i browseTheFolderTree.obj
+ 0001:00002960       ??$_Pocca@V?$allocator@_W@std@@@std@@YAXAAV?$allocator@_W@0@ABV10@U?$integral_constant@_N$0A@@0@@Z 00403960 f i browseTheFolderTree.obj
+ 0001:00002960       ??$destroy@PAD@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@QAPAD@Z 00403960 f i main.obj
+ 0001:00002ac0       ??$construct@PADABQAD@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@QAPADABQAD@Z 00403ac0 f i main.obj
+ 0001:00002ac0       ??$construct@PA_WABQA_W@?$_Default_allocator_traits@V?$allocator@_W@std@@@std@@SAXAAV?$allocator@_W@1@QAPA_WABQA_W@Z 00403ac0 f i main.obj
+ 0001:00002f90       ??$_Allocate@$07U_Default_allocate_traits@std@@$0A@@std@@YAPAXI@Z 00403f90 f i main.obj
+ 0001:00002fd0       ??$_Deallocate@$07$0A@@std@@YAXPAXI@Z 00403fd0 f i main.obj
+ 0001:00003000       ??$_Get_size_of_n@$01@std@@YAII@Z 00404000 f i main.obj
+ 0001:00003030       ??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 00404030 f i main.obj
+ 0001:00003030       ??0?$_String_val@U?$_Simple_types@_W@std@@@std@@QAE@XZ 00404030 f i main.obj
+ 0001:00003060       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SAXXZ 00404060 f i main.obj
+ 0001:00003060       ?_Xlen@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@SAXXZ 00404060 f i main.obj
+ 0001:00003070       ?_Calculate_growth@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEII@Z 00404070 f i main.obj
+ 0001:00003100       ?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEII@Z 00404100 f i main.obj
+ 0001:00003190       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z 00404190 f i main.obj
+ 0001:000031e0       ??$_Immortalize_impl@V_Generic_error_category@std@@@std@@YGHPAX0PAPAX@Z 004041e0 f i main.obj
+ 0001:00003210       ??$_Immortalize_impl@V_System_error_category@std@@@std@@YGHPAX0PAPAX@Z 00404210 f i main.obj
+ 0001:00003240       ??$_Convert_Source_to_wide@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U_Normal_conversion@filesystem@2@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@U_Normal_conversion@01@@Z 00404240 f i main.obj
+ 0001:00003290       ??$_Stringoid_from_Source@DU?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string_view@DU?$char_traits@D@std@@@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00404290 f i main.obj
+ 0001:000032c0       ??$?0ABV?$allocator@_W@std@@$$V@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@_W@1@@Z 004042c0 f i browseTheFolderTree.obj
+ 0001:000032c0       ??$?0V?$allocator@_W@std@@$$V@?$_Compressed_pair@V?$allocator@_W@std@@V?$_String_val@U?$_Simple_types@_W@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAV?$allocator@_W@1@@Z 004042c0 f i main.obj
+ 0001:000032c0       ??$?0V?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAV?$allocator@D@1@@Z 004042c0 f i main.obj
+ 0001:000032c0       ??$?0ABV?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@D@1@@Z 004042c0 f i main.obj
+ 0001:000032f0       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z 004042f0 f i main.obj
+ 0001:00003350       ??$_Convert_stringoid_to_wide@U_Normal_conversion@filesystem@std@@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@V?$basic_string_view@DU?$char_traits@D@std@@@1@U_Normal_conversion@01@@Z 00404350 f i main.obj
+ 0001:00003390       _wmemmove                  00404390 f i browseTheFolderTree.obj
+ 0001:000033b0       ??0_Ref_count_base@std@@IAE@XZ 004043b0 f i browseTheFolderTree.obj
+ 0001:000033e0       ?_Incref@_Ref_count_base@std@@QAEXXZ 004043e0 f i browseTheFolderTree.obj
+ 0001:00003400       ?_Decref@_Ref_count_base@std@@QAEXXZ 00404400 f i browseTheFolderTree.obj
+ 0001:00003430       ?_Decwref@_Ref_count_base@std@@QAEXXZ 00404430 f i browseTheFolderTree.obj
+ 0001:00003460       ?_Get_deleter@_Ref_count_base@std@@UBEPAXABVtype_info@@@Z 00404460 f i browseTheFolderTree.obj
+ 0001:00003470       ??0system_error@std@@QAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 00404470 f i browseTheFolderTree.obj
+ 0001:000034a0       ??Ifilesystem@std@@YA?AW4directory_options@01@W4201@0@Z 004044a0 f i browseTheFolderTree.obj
+ 0001:000034a0       ??I@YA?AW4__std_fs_file_attr@@W40@0@Z 004044a0 f i browseTheFolderTree.obj
+ 0001:000034b0       ?_Bitmask_includes@filesystem@std@@YA_NW4directory_options@12@0@Z 004044b0 f i browseTheFolderTree.obj
+ 0001:000034b0       ?_Bitmask_includes@@YA_NW4__std_fs_file_attr@@0@Z 004044b0 f i browseTheFolderTree.obj
+ 0001:000034e0       ??U@YA?AW4__std_fs_stats_flags@@W40@0@Z 004044e0 f i browseTheFolderTree.obj
+ 0001:000034f0       ??_5@YAAAW4__std_fs_stats_flags@@AAW40@W40@@Z 004044f0 f i browseTheFolderTree.obj
+ 0001:00003510       ??R_Is_slash_oper@std@@QBE_N_W@Z 00404510 f i browseTheFolderTree.obj
+ 0001:00003550       ??__Ksv@string_view_literals@literals@std@@YA?AV?$basic_string_view@DU?$char_traits@D@std@@@3@PBDI@Z 00404550 f i browseTheFolderTree.obj
+ 0001:00003550       ??__Ksv@string_view_literals@literals@std@@YA?AV?$basic_string_view@_WU?$char_traits@_W@std@@@3@PB_WI@Z 00404550 f i browseTheFolderTree.obj
+ 0001:00003570       ?_Is_drive_prefix@filesystem@std@@YA_NQB_W@Z 00404570 f i browseTheFolderTree.obj
+ 0001:000035c0       ?_Has_drive_letter_prefix@filesystem@std@@YA_NQB_W0@Z 004045c0 f i browseTheFolderTree.obj
+ 0001:00003600       ?_Find_root_name_end@filesystem@std@@YAPB_WQB_W0@Z 00404600 f i browseTheFolderTree.obj
+ 0001:000037b0       ?_Find_relative_path@filesystem@std@@YAPB_WQB_W0@Z 004047b0 f i browseTheFolderTree.obj
+ 0001:000037e0       ?_Find_filename@filesystem@std@@YAPB_WQB_WPB_W@Z 004047e0 f i browseTheFolderTree.obj
+ 0001:00003840       ?_Parse_filename@filesystem@std@@YA?AV?$basic_string_view@_WU?$char_traits@_W@std@@@2@V32@@Z 00404840 f i browseTheFolderTree.obj
+ 0001:000038a0       ?_Range_compare@filesystem@std@@YAHQB_W000@Z 004048a0 f i browseTheFolderTree.obj
+ 0001:000038d0       ?_Is_dot_or_dotdot@filesystem@std@@YA_NABU__std_fs_find_data@@@Z 004048d0 f i browseTheFolderTree.obj
+ 0001:00003950       ??0_Find_file_handle@filesystem@std@@QAE@$$QAU012@@Z 00404950 f i browseTheFolderTree.obj
+ 0001:000039b0       ?_Open@_Find_file_handle@filesystem@std@@QAE?AW4__std_win_error@@PB_WPAU__std_fs_find_data@@@Z 004049b0 f i browseTheFolderTree.obj
+ 0001:000039d0       ??1_Find_file_handle@filesystem@std@@QAE@XZ 004049d0 f i browseTheFolderTree.obj
+ 0001:000039f0       ??_0path@filesystem@std@@QAEAAV012@ABV012@@Z 004049f0 f i browseTheFolderTree.obj
+ 0001:00003b50       ?remove_filename@path@filesystem@std@@QAEAAV123@XZ 00404b50 f i browseTheFolderTree.obj
+ 0001:00003be0       ?replace_filename@path@filesystem@std@@QAEAAV123@ABV123@@Z 00404be0 f i browseTheFolderTree.obj
+ 0001:00003c10       ?c_str@path@filesystem@std@@QBEPB_WXZ 00404c10 f i browseTheFolderTree.obj
+ 0001:00003c30       ?string@path@filesystem@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@XZ 00404c30 f i browseTheFolderTree.obj
+ 0001:00003c70       ?filename@path@filesystem@std@@QBE?AV123@XZ 00404c70 f i browseTheFolderTree.obj
+ 0001:00003cc0       ?is_absolute@path@filesystem@std@@QBE_NXZ 00404cc0 f i browseTheFolderTree.obj
+ 0001:00003da0       ??4path@filesystem@std@@QAEAAV012@ABV012@@Z 00404da0 f i browseTheFolderTree.obj
+ 0001:00003dc0       ?__autoclassinit2@?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QAEXI@Z 00404dc0 f i browseTheFolderTree.obj
+ 0001:00003dc0       ?__autoclassinit2@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAEXI@Z 00404dc0 f i browseTheFolderTree.obj
+ 0001:00003dc0       ?__autoclassinit2@directory_iterator@filesystem@std@@QAEXI@Z 00404dc0 f i browseTheFolderTree.obj
+ 0001:00003dc0       ?__autoclassinit2@?$basic_string_view@DU?$char_traits@D@std@@@std@@QAEXI@Z 00404dc0 f i browseTheFolderTree.obj
+ 0001:00003de0       ??0path@filesystem@std@@QAE@XZ 00404de0 f i browseTheFolderTree.obj
+ 0001:00003e00       ??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z 00404e00 f i browseTheFolderTree.obj
+ 0001:00003ea0       ??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z 00404ea0 f i browseTheFolderTree.obj
+ 0001:00003fa0       ?what@filesystem_error@filesystem@std@@UBEPBDXZ 00404fa0 f i browseTheFolderTree.obj
+ 0001:00003fc0       ?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z 00404fc0 f i browseTheFolderTree.obj
+ 0001:00004150       ??_Efilesystem_error@filesystem@std@@UAEPAXI@Z 00405150 f i * CIL library *:* CIL module *
+ 0001:00004150       ??_Gfilesystem_error@filesystem@std@@UAEPAXI@Z 00405150 f i browseTheFolderTree.obj
+ 0001:00004180       ??1filesystem_error@filesystem@std@@UAE@XZ 00405180 f i browseTheFolderTree.obj
+ 0001:000041c0       ?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@@Z 004051c0 f i browseTheFolderTree.obj
+ 0001:00004250       ??0filesystem_error@filesystem@std@@QAE@ABV012@@Z 00405250 f i browseTheFolderTree.obj
+ 0001:000042f0       ?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@ABVpath@12@@Z 004052f0 f i browseTheFolderTree.obj
+ 0001:00004390       ?_Is_file_not_found@filesystem@std@@YA_NW4__std_win_error@@@Z 00405390 f i browseTheFolderTree.obj
+ 0001:000043c0       ?type@file_status@filesystem@std@@QAEXW4file_type@23@@Z 004053c0 f i browseTheFolderTree.obj
+ 0001:000043e0       ?permissions@file_status@filesystem@std@@QAEXW4perms@23@@Z 004053e0 f i browseTheFolderTree.obj
+ 0001:00004400       ?_Refresh@file_status@filesystem@std@@QAEXW4__std_win_error@@ABU__std_fs_stats@@@Z 00405400 f i browseTheFolderTree.obj
+ 0001:00004510       ?is_directory@filesystem@std@@YA_NVfile_status@12@@Z 00405510 f i browseTheFolderTree.obj
+ 0001:00004540       ?_Not_good@_File_status_and_error@filesystem@std@@QBE_NXZ 00405540 f i browseTheFolderTree.obj
+ 0001:00004590       ??0directory_entry@filesystem@std@@QAE@XZ 00405590 f i browseTheFolderTree.obj
+ 0001:000045d0       ?path@directory_entry@filesystem@std@@QBEABV023@XZ 004055d0 f i browseTheFolderTree.obj
+ 0001:000045d0       ??Bdirectory_entry@filesystem@std@@QBEABVpath@12@XZ 004055d0 f i browseTheFolderTree.obj
+ 0001:000045f0       ?_Refresh@directory_entry@filesystem@std@@AAEXABU__std_fs_find_data@@@Z 004055f0 f i browseTheFolderTree.obj
+ 0001:000046a0       ??0_File_status_and_error@filesystem@std@@QAE@XZ 004056a0 f i browseTheFolderTree.obj
+ 0001:000046c0       ??0file_status@filesystem@std@@QAE@XZ 004056c0 f i browseTheFolderTree.obj
+ 0001:000046f0       ?_Advance_and_reset_if_no_more_files@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@3@@Z 004056f0 f i browseTheFolderTree.obj
+ 0001:00004780       ?_Skip_dots@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@W4__std_fs_dir_handle@@AAU__std_fs_find_data@@@Z 00405780 f i browseTheFolderTree.obj
+ 0001:000047f0       ?_Open_dir@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAVpath@23@W4directory_options@23@AAU_Find_file_handle@23@AAU__std_fs_find_data@@@Z 004057f0 f i browseTheFolderTree.obj
+ 0001:00004880       ??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z 00405880 f i browseTheFolderTree.obj
+ 0001:00004980       ?_Refresh@_Dir_enum_impl@filesystem@std@@QAEXABU__std_fs_find_data@@@Z 00405980 f i browseTheFolderTree.obj
+ 0001:00004a10       ??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z 00405a10 f i browseTheFolderTree.obj
+ 0001:00004ac0       ??0_Find_file_handle@filesystem@std@@QAE@XZ 00405ac0 f i browseTheFolderTree.obj
+ 0001:00004ae0       ??1directory_entry@filesystem@std@@QAE@XZ 00405ae0 f i browseTheFolderTree.obj
+ 0001:00004b00       ??4path@filesystem@std@@QAEAAV012@$$QAV012@@Z 00405b00 f i browseTheFolderTree.obj
+ 0001:00004b20       ??0directory_iterator@filesystem@std@@QAE@ABVpath@12@@Z 00405b20 f i browseTheFolderTree.obj
+ 0001:00004ba0       ??Ddirectory_iterator@filesystem@std@@QBEABVdirectory_entry@12@XZ 00405ba0 f i browseTheFolderTree.obj
+ 0001:00004bc0       ??Edirectory_iterator@filesystem@std@@QAEAAV012@XZ 00405bc0 f i browseTheFolderTree.obj
+ 0001:00004c00       ??9directory_iterator@filesystem@std@@QBE_NABV012@@Z 00405c00 f i browseTheFolderTree.obj
+ 0001:00004c20       ?begin@filesystem@std@@YA?AVdirectory_iterator@12@V312@@Z 00405c20 f i browseTheFolderTree.obj
+ 0001:00004c50       ??1directory_iterator@filesystem@std@@QAE@XZ 00405c50 f i browseTheFolderTree.obj
+ 0001:00004c70       ??0directory_iterator@filesystem@std@@QAE@$$QAV012@@Z 00405c70 f i browseTheFolderTree.obj
+ 0001:00004c90       ?end@filesystem@std@@YA?AVdirectory_iterator@12@V312@@Z 00405c90 f i browseTheFolderTree.obj
+ 0001:00004cc0       ??0directory_iterator@filesystem@std@@QAE@XZ 00405cc0 f i browseTheFolderTree.obj
+ 0001:00004ce0       ??1_Dir_enum_impl@filesystem@std@@QAE@XZ 00405ce0 f i browseTheFolderTree.obj
+ 0001:00004d00       ?is_directory@filesystem@std@@YA_NABVpath@12@@Z 00405d00 f i browseTheFolderTree.obj
+ 0001:00004d30       ?_Get_any_status@filesystem@std@@YA?AU_File_status_and_error@12@ABVpath@12@W4__std_fs_stats_flags@@@Z 00405d30 f i browseTheFolderTree.obj
+ 0001:00004da0       ?status@filesystem@std@@YA?AVfile_status@12@ABVpath@12@@Z 00405da0 f i browseTheFolderTree.obj
+ 0001:00004e30       ?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z 00405e30 f   browseTheFolderTree.obj
+ 0001:00005070       ??0directory_iterator@filesystem@std@@QAE@ABV012@@Z 00406070 f i browseTheFolderTree.obj
+ 0001:00005090       ??1?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@QAE@XZ 00406090 f i browseTheFolderTree.obj
+ 0001:000050d0       ?reset@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAEXXZ 004060d0 f i browseTheFolderTree.obj
+ 0001:00005110       ??1?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@XZ 00406110 f i browseTheFolderTree.obj
+ 0001:00005150       ??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAV01@@Z 00406150 f i browseTheFolderTree.obj
+ 0001:000051b0       ??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@ABV01@@Z 004061b0 f i browseTheFolderTree.obj
+ 0001:00005200       ??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@XZ 00406200 f i browseTheFolderTree.obj
+ 0001:00005220       ?push_back@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEX_W@Z 00406220 f i browseTheFolderTree.obj
+ 0001:00005320       ?erase@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV12@I@Z 00406320 f i browseTheFolderTree.obj
+ 0001:00005360       ?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV12@QB_WI@Z 00406360 f i browseTheFolderTree.obj
+ 0001:00005470       ??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@ABV01@@Z 00406470 f i browseTheFolderTree.obj
+ 0001:000054e0       ??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@$$QAV01@@Z 004064e0 f i browseTheFolderTree.obj
+ 0001:00005570       ?reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 00406570 f i browseTheFolderTree.obj
+ 0001:00005630       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z 00406630 f i browseTheFolderTree.obj
+ 0001:00005650       ??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z 00406650 f i browseTheFolderTree.obj
+ 0001:00005670       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00406670 f i browseTheFolderTree.obj
+ 0001:000056c0       ??0?$basic_string_view@_WU?$char_traits@_W@std@@@std@@QAE@QB_W@Z 004066c0 f i browseTheFolderTree.obj
+ 0001:000056f0       ??0?$basic_string_view@DU?$char_traits@D@std@@@std@@QAE@QBD@Z 004066f0 f i browseTheFolderTree.obj
+ 0001:00005720       ??0?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAE@XZ 00406720 f i browseTheFolderTree.obj
+ 0001:00005750       ?_Tidy@?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@AAEXXZ 00406750 f i browseTheFolderTree.obj
+ 0001:000057f0       ?_Decref@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAEXXZ 004067f0 f i browseTheFolderTree.obj
+ 0001:00005810       ?swap@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAEXAAV12@@Z 00406810 f i browseTheFolderTree.obj
+ 0001:00005830       ?_Check_offset@?$_String_val@U?$_Simple_types@_W@std@@@std@@QBEXI@Z 00406830 f i browseTheFolderTree.obj
+ 0001:00005850       ?_Move_alloc@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAEXAAV?$allocator@_W@2@@Z 00406850 f i browseTheFolderTree.obj
+ 0001:00005880       ?_Copy_alloc@?$_String_alloc@U?$_String_base_types@_WV?$allocator@_W@std@@@std@@@std@@QAEXABV?$allocator@_W@2@@Z 00406880 f i browseTheFolderTree.obj
+ 0001:000058b0       ?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV12@QB_WI@Z 004068b0 f i browseTheFolderTree.obj
+ 0001:00005980       ?_Assign_rv_contents@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00406980 f i browseTheFolderTree.obj
+ 0001:000059b0       ?push_back@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXD@Z 004069b0 f i browseTheFolderTree.obj
+ 0001:00005aa0       ?move@?$_WChar_traits@_W@std@@SAPA_WQA_WQB_WI@Z 00406aa0 f i browseTheFolderTree.obj
+ 0001:00005ac0       ?length@?$_WChar_traits@_W@std@@SAIPB_W@Z 00406ac0 f i browseTheFolderTree.obj
+ 0001:00005b00       ?compare@?$_WChar_traits@_W@std@@SAHQB_W0I@Z 00406b00 f i browseTheFolderTree.obj
+ 0001:00005b80       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QBEABQAV?$Point_@H@cv@@XZ 00406b80 f i browseTheFolderTree.obj
+ 0001:00005b80       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEAAPAV?$Point_@H@cv@@XZ 00406b80 f i browseTheFolderTree.obj
+ 0001:00005ba0       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEAAPAV?$Point_@H@cv@@XZ 00406ba0 f i browseTheFolderTree.obj
+ 0001:00005bc0       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QAEAAPAV?$Point_@H@cv@@XZ 00406bc0 f i browseTheFolderTree.obj
+ 0001:00005bc0       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@@std@@QBEABQAV?$Point_@H@cv@@XZ 00406bc0 f i browseTheFolderTree.obj
+ 0001:00005be0       ?_Destroy@?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@AAEXPAV?$Point_@H@cv@@0@Z 00406be0 f i browseTheFolderTree.obj
+ 0001:00005c10       ?capacity@?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@QBEIXZ 00406c10 f i browseTheFolderTree.obj
+ 0001:00005c40       ?deallocate@?$allocator@V?$Point_@H@cv@@@std@@QAEXQAV?$Point_@H@cv@@I@Z 00406c40 f i browseTheFolderTree.obj
+ 0001:00005c60       ?_Swap@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAEXAAV12@@Z 00406c60 f i browseTheFolderTree.obj
+ 0001:00005ca0       ?_Xran@?$_String_val@U?$_Simple_types@_W@std@@@std@@SAXXZ 00406ca0 f i browseTheFolderTree.obj
+ 0001:00005cb0       ??$_Unaligned_load@I@filesystem@std@@YAIPBX@Z 00406cb0 f i browseTheFolderTree.obj
+ 0001:00005ce0       ??$find_if@PB_WU_Is_slash_oper@std@@@std@@YAPB_WPB_WQB_WU_Is_slash_oper@0@@Z 00406ce0 f i browseTheFolderTree.obj
+ 0001:00005d50       ??$find_if_not@PB_WU_Is_slash_oper@std@@@std@@YAPB_WPB_WQB_WU_Is_slash_oper@0@@Z 00406d50 f i browseTheFolderTree.obj
+ 0001:00005dc0       ??$_Traits_compare@U?$char_traits@_W@std@@@std@@YAHQB_WI0I@Z 00406dc0 f i browseTheFolderTree.obj
+ 0001:00005e20       ??$exchange@W4__std_fs_dir_handle@@W41@@std@@YA?AW4__std_fs_dir_handle@@AAW41@$$QAW41@@Z 00406e20 f i browseTheFolderTree.obj
+ 0001:00005e50       ??$string@DU?$char_traits@D@std@@V?$allocator@D@2@$0A@@path@filesystem@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABV?$allocator@D@2@@Z 00406e50 f i browseTheFolderTree.obj
+ 0001:00005ea0       ??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@W4format@012@@Z 00406ea0 f i browseTheFolderTree.obj
+ 0001:00005ed0       ??$?_0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAEAAV012@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@@Z 00406ed0 f i browseTheFolderTree.obj
+ 0001:00005f50       ??$?YV?$basic_string_view@DU?$char_traits@D@std@@@std@@X@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV?$basic_string_view@DU?$char_traits@D@std@@@1@@Z 00406f50 f i browseTheFolderTree.obj
+ 0001:00005f70       ??$?DU_Dir_enum_impl@filesystem@std@@$0A@@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QBEAAU_Dir_enum_impl@filesystem@1@XZ 00406f70 f i browseTheFolderTree.obj
+ 0001:00005f70       ??$?CU_Dir_enum_impl@filesystem@std@@$0A@@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QBEPAU_Dir_enum_impl@filesystem@1@XZ 00406f70 f i browseTheFolderTree.obj
+ 0001:00005f90       ??$_Initialize_dir_enum@U_Dir_enum_impl@filesystem@std@@@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@2@ABVpath@12@W4directory_options@12@@Z 00406f90 f i browseTheFolderTree.obj
+ 0001:00006070       ??$?9U_Dir_enum_impl@filesystem@std@@U012@@std@@YA_NABV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@0@Z 00407070 f i browseTheFolderTree.obj
+ 0001:000060b0       ??$_Move_construct_from@U_Dir_enum_impl@filesystem@std@@@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAEX$$QAV01@@Z 004070b0 f i browseTheFolderTree.obj
+ 0001:000060f0       ??$_Copy_construct_from@U_Dir_enum_impl@filesystem@std@@@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAEXABV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@1@@Z 004070f0 f i browseTheFolderTree.obj
+ 0001:00006510       ??$_Pocma@V?$allocator@_W@std@@@std@@YAXAAV?$allocator@_W@0@0@Z 00407510 f i browseTheFolderTree.obj
+ 0001:00006530       ??$_Pocca@V?$allocator@_W@std@@@std@@YAXAAV?$allocator@_W@0@ABV10@@Z 00407530 f i browseTheFolderTree.obj
+ 0001:000067a0       ??$_Destroy_range@V?$allocator@V?$Point_@H@cv@@@std@@@std@@YAXPAV?$Point_@H@cv@@0AAV?$allocator@V?$Point_@H@cv@@@0@@Z 004077a0 f i browseTheFolderTree.obj
+ 0001:000067d0       ??$swap@PAV_Ref_count_base@std@@X@std@@YAXAAPAV_Ref_count_base@0@0@Z 004077d0 f i browseTheFolderTree.obj
+ 0001:000067d0       ??$swap@PAU_Dir_enum_impl@filesystem@std@@X@std@@YAXAAPAU_Dir_enum_impl@filesystem@0@0@Z 004077d0 f i browseTheFolderTree.obj
+ 0001:00006830       ??1_Creator@_Dir_enum_impl@filesystem@std@@QAE@XZ 00407830 f i browseTheFolderTree.obj
+ 0001:00006850       ??4?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAEAAV01@$$QAV01@@Z 00407850 f i browseTheFolderTree.obj
+ 0001:000068a0       ??$_Rechecked@PB_WPB_W@std@@YAAAPB_WAAPB_WQB_W@Z 004078a0 f i browseTheFolderTree.obj
+ 0001:000068b0       ??$_Convert_wide_to@DU?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z 004078b0 f i browseTheFolderTree.obj
+ 0001:000068f0       ??$_Convert_Source_to_wide@V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@U_Normal_conversion@filesystem@2@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@U_Normal_conversion@01@@Z 004078f0 f i browseTheFolderTree.obj
+ 0001:00006940       ??$_Stringoid_from_Source@_WU?$char_traits@_W@std@@@filesystem@std@@YA?AV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV21@@Z 00407940 f i browseTheFolderTree.obj
+ 0001:00006970       ??$assign@V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@@Z 00407970 f i browseTheFolderTree.obj
+ 0001:000069d0       ??$append@V?$basic_string_view@DU?$char_traits@D@std@@@std@@X@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV?$basic_string_view@DU?$char_traits@D@std@@@1@@Z 004079d0 f i browseTheFolderTree.obj
+ 0001:00006a30       ??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z 00407a30 f i browseTheFolderTree.obj
+ 0001:00006b30       ??$_Pocma@V?$allocator@_W@std@@@std@@YAXAAV?$allocator@_W@0@0U?$integral_constant@_N$00@0@@Z 00407b30 f i browseTheFolderTree.obj
+ 0001:00006b50       ?_Delete_this@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@EAEXXZ 00407b50 f i browseTheFolderTree.obj
+ 0001:00006b90       ?_Destroy@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@EAEXXZ 00407b90 f i browseTheFolderTree.obj
+ 0001:00006be0       ?_Getptr@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAEPAU_Dir_enum_impl@filesystem@2@XZ 00407be0 f i browseTheFolderTree.obj
+ 0001:00006c00       ??_G_Dir_enum_impl@filesystem@std@@QAEPAXI@Z 00407c00 f i browseTheFolderTree.obj
+ 0001:00006c30       ??$_Convert_stringoid_to_wide@U_Normal_conversion@filesystem@std@@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@U_Normal_conversion@01@@Z 00407c30 f i browseTheFolderTree.obj
+ 0001:00006c70       ??$?0U_Creator@_Dir_enum_impl@filesystem@std@@ABW4directory_options@23@@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAU_Creator@_Dir_enum_impl@filesystem@1@ABW4directory_options@41@@Z 00407c70 f i browseTheFolderTree.obj
+ 0001:00006d10       ??$_Set_ptr_rep_and_enable_shared@U_Dir_enum_impl@filesystem@std@@@?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@AAEXPAU_Dir_enum_impl@filesystem@1@PAV_Ref_count_base@1@@Z 00407d10 f i browseTheFolderTree.obj
+ 0001:00006d40       ??_E?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@UAEPAXI@Z 00407d40 f i * CIL library *:* CIL module *
+ 0001:00006d40       ??_G?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@UAEPAXI@Z 00407d40 f i browseTheFolderTree.obj
+ 0001:00006d70       ?_Set_ptr_rep@?$_Ptr_base@U_Dir_enum_impl@filesystem@std@@@std@@IAEXPAU_Dir_enum_impl@filesystem@2@PAV_Ref_count_base@2@@Z 00407d70 f i browseTheFolderTree.obj
+ 0001:00006d90       ??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@_W@1@@Z 00407d90 f i browseTheFolderTree.obj
+ 0001:00006e00       ??$_Enable_shared_from_this@U_Dir_enum_impl@filesystem@std@@U123@@std@@YAXABV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@PAU_Dir_enum_impl@filesystem@0@@Z 00407e00 f i browseTheFolderTree.obj
+ 0001:00006e71       ??$__crt_fast_encode_pointer@P6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@Z@@YAP6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@ZQ6GH010K@Z@Z 00407e71 f i msvcprt:filesystem.obj
+ 0001:00006e8e       ??4_Init_locks@std@@QAEAAV01@ABV01@@Z 00407e8e f i msvcprt:filesystem.obj
+ 0001:00006ea0       ___std_fs_close_handle@4   00407ea0 f   msvcprt:filesystem.obj
+ 0001:00006ec0       ___std_fs_code_page@0      00407ec0 f   msvcprt:filesystem.obj
+ 0001:00006ede       ___std_fs_convert_narrow_to_wide@20 00407ede f   msvcprt:filesystem.obj
+ 0001:00006f12       ___std_fs_convert_wide_to_narrow@20 00407f12 f   msvcprt:filesystem.obj
+ 0001:00006fc7       ___std_fs_directory_iterator_advance@8 00407fc7 f   msvcprt:filesystem.obj
+ 0001:00006fe8       ___std_fs_directory_iterator_close@4 00407fe8 f   msvcprt:filesystem.obj
+ 0001:00007008       ___std_fs_directory_iterator_open@12 00408008 f   msvcprt:filesystem.obj
+ 0001:00007078       ___std_fs_get_stats@16     00408078 f   msvcprt:filesystem.obj
+ 0001:000073bc       ___std_fs_open_handle@16   004083bc f   msvcprt:filesystem.obj
+ 0001:000073f0       @__security_check_cookie@4 004083f0 f   MSVCRT:_secchk_.obj
+ 0001:00007401       ??2@YAPAXI@Z               00408401 f   MSVCRT:new_scalar.obj
+ 0001:00007431       ??3@YAXPAXI@Z              00408431 f   MSVCRT:delete_scalar_size.obj
+ 0001:0000743f       ??_Gtype_info@@UAEPAXI@Z   0040843f f i MSVCRT:std_type_info_static.obj
+ 0001:0000743f       ??_Etype_info@@UAEPAXI@Z   0040843f f i MSVCRT:std_type_info_static.obj
+ 0001:00007698       _mainCRTStartup            00408698 f   MSVCRT:exe_main.obj
+ 0001:000076a2       __initialize_denormal_control 004086a2 f i MSVCRT:denormal_control.obj
+ 0001:000076a2       __initialize_invalid_parameter_handler 004086a2 f i MSVCRT:invalid_parameter_handler.obj
+ 0001:000076a2       @_guard_check_icall_nop@4  004086a2 f i MSVCRT:guard_support.obj
+ 0001:000076a3       ___raise_securityfailure   004086a3 f   MSVCRT:gs_report.obj
+ 0001:000076cb       ___report_gsfailure        004086cb f   MSVCRT:gs_report.obj
+ 0001:000077c6       ??0bad_alloc@std@@QAE@ABV01@@Z 004087c6 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000077e1       ??0bad_alloc@std@@QAE@XZ   004087e1 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000077f9       ??0bad_array_new_length@std@@QAE@ABV01@@Z 004087f9 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00007814       ??0bad_array_new_length@std@@QAE@XZ 00408814 f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000782c       ??1bad_alloc@std@@UAE@XZ   0040882c f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000782c       ??1bad_array_new_length@std@@UAE@XZ 0040882c f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000783d       ??_Gbad_array_new_length@std@@UAEPAXI@Z 0040883d f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000783d       ??_Ebad_alloc@std@@UAEPAXI@Z 0040883d f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000783d       ??_Ebad_array_new_length@std@@UAEPAXI@Z 0040883d f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000783d       ??_Gbad_alloc@std@@UAEPAXI@Z 0040883d f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000786a       ?__scrt_throw_std_bad_alloc@@YAXXZ 0040886a f   MSVCRT:throw_bad_alloc.obj
+ 0001:00007887       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 00408887 f   MSVCRT:throw_bad_alloc.obj
+ 0001:000078a4       ??3@YAXPAX@Z               004088a4 f   MSVCRT:delete_scalar.obj
+ 0001:000078ed       ___scrt_acquire_startup_lock 004088ed f   MSVCRT:utility.obj
+ 0001:0000791f       ___scrt_initialize_crt     0040891f f   MSVCRT:utility.obj
+ 0001:00007958       ___scrt_initialize_onexit_tables 00408958 f   MSVCRT:utility.obj
+ 0001:00007a02       ___scrt_is_nonwritable_in_current_image 00408a02 f   MSVCRT:utility.obj
+ 0001:00007a8c       ___scrt_release_startup_lock 00408a8c f   MSVCRT:utility.obj
+ 0001:00007aa9       ___scrt_uninitialize_crt   00408aa9 f   MSVCRT:utility.obj
+ 0001:00007ad1       __onexit                   00408ad1 f   MSVCRT:utility.obj
+ 0001:00007b0c       _atexit                    00408b0c f   MSVCRT:utility.obj
+ 0001:00007b70       ___security_init_cookie    00408b70 f   MSVCRT:gs_support.obj
+ 0001:00007bbb       __matherr                  00408bbb f   MSVCRT:matherr.obj
+ 0001:00007bbb       __get_startup_commit_mode  00408bbb f   MSVCRT:commit_mode.obj
+ 0001:00007bbb       __get_startup_new_mode     00408bbb f   MSVCRT:new_mode.obj
+ 0001:00007bbb       __get_startup_thread_locale_mode 00408bbb f   MSVCRT:thread_locale.obj
+ 0001:00007bbb       ___scrt_initialize_winrt   00408bbb f   MSVCRT:utility_desktop.obj
+ 0001:00007bbe       __get_startup_argv_mode    00408bbe f   MSVCRT:argv_mode.obj
+ 0001:00007bc2       __get_startup_file_mode    00408bc2 f   MSVCRT:file_mode.obj
+ 0001:00007bc8       ?__scrt_initialize_type_info@@YAXXZ 00408bc8 f   MSVCRT:tncleanup.obj
+ 0001:00007bd4       ___vcrt_initialize         00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       ___scrt_stub_for_acrt_initialize 00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       ___vcrt_uninitialize       00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       ___scrt_stub_for_acrt_uninitialize 00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       ___acrt_initialize         00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       ___acrt_uninitialize       00408bd4 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007bd4       __should_initialize_environment 00408bd4 f   MSVCRT:env_mode.obj
+ 0001:00007bd7       __initialize_default_precision 00408bd7 f   MSVCRT:default_precision.obj
+ 0001:00007bf8       ___local_stdio_printf_options 00408bf8 f i MSVCRT:default_local_stdio_options.obj
+ 0001:00007bfe       ___local_stdio_scanf_options 00408bfe f i MSVCRT:default_local_stdio_options.obj
+ 0001:00007c04       ___scrt_initialize_default_local_stdio_options 00408c04 f   MSVCRT:default_local_stdio_options.obj
+ 0001:00007c21       ___scrt_is_user_matherr_present 00408c21 f   MSVCRT:matherr_detection.obj
+ 0001:00007c2d       ___scrt_get_dyn_tls_init_callback 00408c2d f   MSVCRT:dyn_tls_init.obj
+ 0001:00007c33       ___scrt_get_dyn_tls_dtor_callback 00408c33 f   MSVCRT:dyn_tls_dtor.obj
+ 0001:00007c39       ___scrt_fastfail           00408c39 f   MSVCRT:utility_desktop.obj
+ 0001:00007d55       ___scrt_is_managed_app     00408d55 f   MSVCRT:utility_desktop.obj
+ 0001:00007d98       ___scrt_set_unhandled_exception_filter 00408d98 f   MSVCRT:utility_desktop.obj
+ 0001:00007da4       ___scrt_unhandled_exception_filter@4 00408da4 f   MSVCRT:utility_desktop.obj
+ 0001:00007de5       __crt_debugger_hook        00408de5 f   MSVCRT:utility_desktop.obj
+ 0001:00007ded       __RTC_Initialize           00408ded f   MSVCRT:_initsect_.obj
+ 0001:00007e19       __RTC_Terminate            00408e19 f   MSVCRT:_initsect_.obj
+ 0001:00007e50       __SEH_prolog4              00408e50 f   MSVCRT:_sehprolg4_.obj
+ 0001:00007e96       __SEH_epilog4              00408e96 f   MSVCRT:_sehprolg4_.obj
+ 0001:00007eab       __except_handler4          00408eab f   MSVCRT:_chandler4gs_.obj
+ 0001:00007ece       ___isa_available_init      00408ece f   MSVCRT:_cpu_disp_.obj
+ 0001:00008067       ___scrt_is_ucrt_dll_in_use 00409067 f   MSVCRT:ucrt_detection.obj
+ 0001:00008073       ___CxxFrameHandler3        00409073 f   vcruntime:VCRUNTIME140.dll
+ 0001:00008079       ___std_exception_destroy   00409079 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000807f       ___std_terminate           0040907f f   vcruntime:VCRUNTIME140.dll
+ 0001:00008085       _memcpy                    00409085 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000808b       __CxxThrowException@8      0040908b f   vcruntime:VCRUNTIME140.dll
+ 0001:00008091       _memset                    00409091 f   vcruntime:VCRUNTIME140.dll
+ 0001:00008097       __except_handler4_common   00409097 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000809d       _terminate                 0040909d f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080a3       _free                      004090a3 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000080a9       _malloc                    004090a9 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000080af       __callnewh                 004090af f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000080b5       __seh_filter_exe           004090b5 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080bb       __set_app_type             004090bb f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080c1       ___setusermatherr          004090c1 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000080c7       __configure_narrow_argv    004090c7 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080cd       __initialize_narrow_environment 004090cd f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080d3       __get_initial_narrow_environment 004090d3 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080d9       __initterm                 004090d9 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080df       __initterm_e               004090df f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080e5       _exit                      004090e5 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080eb       __exit                     004090eb f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080f1       __set_fmode                004090f1 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000080f7       ___p___argc                004090f7 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000080fd       ___p___argv                004090fd f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008103       __cexit                    00409103 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008109       __c_exit                   00409109 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000810f       __register_thread_local_exe_atexit_callback 0040910f f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008115       __configthreadlocale       00409115 f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:0000811b       __set_new_mode             0040911b f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00008121       ___p__commode              00409121 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00008127       __initialize_onexit_table  00409127 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000812d       __register_onexit_function 0040912d f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008133       __crt_atexit               00409133 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008139       __controlfp_s              00409139 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000813f       _IsProcessorFeaturePresent@4 0040913f f   kernel32:KERNEL32.dll
+ 0001:00008150       __allshl                   00409150 f   MSVCRT:llshl.obj
+ 0001:0000816f       _memmove                   0040916f f   vcruntime:VCRUNTIME140.dll
+ 0002:00000000       __imp__LoadLibraryA@4      0040a000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetProcAddress@8    0040a004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__CreateFileW@28      0040a008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__FindClose@4         0040a00c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__FindFirstFileExW@24 0040a010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__FindNextFileW@8     0040a014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetFileAttributesExW@12 0040a018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetFileInformationByHandle@8 0040a01c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__AreFileApisANSI@0   0040a020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__CloseHandle@4       0040a024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetLastError@0      0040a028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__SetLastError@4      0040a02c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetModuleHandleW@4  0040a030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__IsDebuggerPresent@0 0040a034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__InitializeSListHead@4 0040a038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetSystemTimeAsFileTime@4 0040a03c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetCurrentThreadId@0 0040a040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetCurrentProcessId@0 0040a044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__QueryPerformanceCounter@4 0040a048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__IsProcessorFeaturePresent@4 0040a04c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__TerminateProcess@8  0040a050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetCurrentProcess@0 0040a054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__SetUnhandledExceptionFilter@4 0040a058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__UnhandledExceptionFilter@4 0040a05c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__WideCharToMultiByte@32 0040a060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__MultiByteToWideChar@24 0040a064     kernel32:KERNEL32.dll
+ 0002:00000068       \177KERNEL32_NULL_THUNK_DATA 0040a068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp_?_Execute_once@std@@YAHAAUonce_flag@1@P6GHPAX1PAPAX@Z1@Z 0040a06c     msvcprt:MSVCP140.dll
+ 0002:00000070       __imp_?_Syserror_map@std@@YAPBDH@Z 0040a070     msvcprt:MSVCP140.dll
+ 0002:00000074       __imp_?_Xlength_error@std@@YAXPBD@Z 0040a074     msvcprt:MSVCP140.dll
+ 0002:00000078       __imp_?_Winerror_map@std@@YAHH@Z 0040a078     msvcprt:MSVCP140.dll
+ 0002:0000007c       __imp_?_Xout_of_range@std@@YAXPBD@Z 0040a07c     msvcprt:MSVCP140.dll
+ 0002:00000080       __imp_?_Xinvalid_argument@std@@YAXPBD@Z 0040a080     msvcprt:MSVCP140.dll
+ 0002:00000084       __imp_?_Winerror_message@std@@YAKKPADK@Z 0040a084     msvcprt:MSVCP140.dll
+ 0002:00000088       \177MSVCP140_NULL_THUNK_DATA 0040a088     msvcprt:MSVCP140.dll
+ 0002:0000008c       __imp__memmove             0040a08c     vcruntime:VCRUNTIME140.dll
+ 0002:00000090       __imp____CxxFrameHandler3  0040a090     vcruntime:VCRUNTIME140.dll
+ 0002:00000094       __imp____std_exception_destroy 0040a094     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp____std_exception_copy 0040a098     vcruntime:VCRUNTIME140.dll
+ 0002:0000009c       __imp____std_terminate     0040a09c     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp__memcpy              0040a0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a4       __imp___CxxThrowException@8 0040a0a4     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp__memset              0040a0a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000ac       __imp___except_handler4_common 0040a0ac     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 0040a0b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b4       __imp__strtoul             0040a0b4     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000000b8       \177api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA 0040a0b8     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:000000bc       __imp___callnewh           0040a0bc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp__malloc              0040a0c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c4       __imp__free                0040a0c4     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       __imp___set_new_mode       0040a0c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000cc       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0040a0cc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp_____lc_codepage_func 0040a0d0     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000000d4       __imp___configthreadlocale 0040a0d4     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000000d8       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0040a0d8     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:000000dc       __imp____setusermatherr    0040a0dc     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000000e0       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0040a0e0     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:000000e4       __imp___register_onexit_function 0040a0e4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp___register_thread_local_exe_atexit_callback 0040a0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000ec       __imp___c_exit             0040a0ec     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp___controlfp_s        0040a0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f4       __imp____p___argv          0040a0f4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp____p___argc          0040a0f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000fc       __imp__exit                0040a0fc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp___initterm_e         0040a100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000104       __imp___initterm           0040a104     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp___get_initial_narrow_environment 0040a108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000010c       __imp___initialize_narrow_environment 0040a10c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp___configure_narrow_argv 0040a110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000114       __imp___set_app_type       0040a114     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp___seh_filter_exe     0040a118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000011c       __imp___exit               0040a11c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp___initialize_onexit_table 0040a120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000124       __imp___crt_atexit         0040a124     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp___cexit              0040a128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000012c       __imp___invalid_parameter_noinfo_noreturn 0040a12c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp___errno              0040a130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000134       __imp__terminate           0040a134     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp__system              0040a138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000013c       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0040a13c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       __imp____p__commode        0040a140     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000144       __imp___set_fmode          0040a144     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000148       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0040a148     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000014c       ___guard_check_icall_fptr  0040a14c     MSVCRT:guard_support.obj
+ 0002:00000150       ___xc_a                    0040a150     MSVCRT:initializers.obj
+ 0002:00000158       ___xc_z                    0040a158     MSVCRT:initializers.obj
+ 0002:0000015c       ___xi_a                    0040a15c     MSVCRT:initializers.obj
+ 0002:00000168       ___xi_z                    0040a168     MSVCRT:initializers.obj
+ 0002:0000016c       ___xp_a                    0040a16c     MSVCRT:initializers.obj
+ 0002:00000170       ___xp_z                    0040a170     MSVCRT:initializers.obj
+ 0002:00000174       ___xt_a                    0040a174     MSVCRT:initializers.obj
+ 0002:00000178       ___xt_z                    0040a178     MSVCRT:initializers.obj
+ 0002:00000180       ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 0040a180     msvcprt:filesystem.obj
+ 0002:0000019c       ??_C@_0BN@NEEHBBPO@GetFileInformationByHandleEx?$AA@ 0040a19c     msvcprt:filesystem.obj
+ 0002:000001c0       ??_7type_info@@6B@         0040a1c0     MSVCRT:std_type_info_static.obj
+ 0002:000001d0       ??_7exception@std@@6B@     0040a1d0     MSVCRT:throw_bad_alloc.obj
+ 0002:000001dc       ??_7bad_alloc@std@@6B@     0040a1dc     MSVCRT:throw_bad_alloc.obj
+ 0002:000001e4       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 0040a1e4     MSVCRT:throw_bad_alloc.obj
+ 0002:000001f8       ??_7bad_array_new_length@std@@6B@ 0040a1f8     MSVCRT:throw_bad_alloc.obj
+ 0002:00000200       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length?$AA@ 0040a200     MSVCRT:throw_bad_alloc.obj
+ 0002:000003c8       ??_7_System_error_category@std@@6B@ 0040a3c8     main.obj
+ 0002:000003e4       ??_7system_error@std@@6B@  0040a3e4     main.obj
+ 0002:000003ec       ??_C@_0BC@EOODALEL@Unknown?5exception?$AA@ 0040a3ec     main.obj
+ 0002:000003fe       ??_C@_00CNPNBAHC@?$AA@     0040a3fe     main.obj
+ 0002:00000400       ??_C@_02LMMGGCAJ@?3?5?$AA@ 0040a400     main.obj
+ 0002:00000404       ??_C@_07DCLBNMLN@generic?$AA@ 0040a404     main.obj
+ 0002:0000040c       ??_C@_06FHFOAHML@system?$AA@ 0040a40c     main.obj
+ 0002:00000414       ??_C@_0O@BFJCFAAK@unknown?5error?$AA@ 0040a414     main.obj
+ 0002:00000424       ??_C@_0BH@DPNNDOEK@invalid?5stoul?5argument?$AA@ 0040a424     main.obj
+ 0002:0000043c       ??_C@_0BM@MOLGGFGJ@stoul?5argument?5out?5of?5range?$AA@ 0040a43c     main.obj
+ 0002:00000458       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 0040a458     main.obj
+ 0002:0000046c       ??_7_Generic_error_category@std@@6B@ 0040a46c     main.obj
+ 0002:00000488       ??_7runtime_error@std@@6B@ 0040a488     main.obj
+ 0002:00000494       ??_7_System_error@std@@6B@ 0040a494     main.obj
+ 0002:000004a0       ??_7filesystem_error@filesystem@std@@6B@ 0040a4a0     browseTheFolderTree.obj
+ 0002:000004ac       ??_7?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@6B@ 0040a4ac     browseTheFolderTree.obj
+ 0002:000004bc       ?_Is_slash@std@@3U_Is_slash_oper@1@B 0040a4bc     browseTheFolderTree.obj
+ 0002:000004c0       ??_C@_03NONCDIOG@?3?5?$CC?$AA@ 0040a4c0     browseTheFolderTree.obj
+ 0002:000004c4       ??_C@_04PHMHGEMA@?$CC?0?5?$CC?$AA@ 0040a4c4     browseTheFolderTree.obj
+ 0002:000004cc       ??_C@_13BBDEGPLJ@?$AA?$CK?$AA?$AA@ 0040a4cc     browseTheFolderTree.obj
+ 0002:000004d0       ??_C@_0CH@GANCNKKD@directory_iterator?3?3directory_it@ 0040a4d0     browseTheFolderTree.obj
+ 0002:000004f8       ??_C@_0BP@DPMCMHCK@directory_iterator?3?3operator?$CL?$CL?$AA@ 0040a4f8     browseTheFolderTree.obj
+ 0002:00000518       ??_C@_06DJIHEMFI@status?$AA@ 0040a518     browseTheFolderTree.obj
+ 0002:00000520       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 0040a520     browseTheFolderTree.obj
+ 0002:000005b0       __load_config_used         0040a5b0     MSVCRT:loadcfg.obj
+ 0002:00000650       ??_R4type_info@@6B@        0040a650     MSVCRT:std_type_info_static.obj
+ 0002:00000664       ??_R3type_info@@8          0040a664     MSVCRT:std_type_info_static.obj
+ 0002:00000674       ??_R2type_info@@8          0040a674     MSVCRT:std_type_info_static.obj
+ 0002:0000067c       ??_R1A@?0A@EA@type_info@@8 0040a67c     MSVCRT:std_type_info_static.obj
+ 0002:00000698       ??_R4bad_alloc@std@@6B@    0040a698     MSVCRT:throw_bad_alloc.obj
+ 0002:000006ac       ??_R3bad_alloc@std@@8      0040a6ac     MSVCRT:throw_bad_alloc.obj
+ 0002:000006bc       ??_R2bad_alloc@std@@8      0040a6bc     MSVCRT:throw_bad_alloc.obj
+ 0002:000006c8       ??_R1A@?0A@EA@bad_alloc@std@@8 0040a6c8     MSVCRT:throw_bad_alloc.obj
+ 0002:000006e4       ??_R4bad_array_new_length@std@@6B@ 0040a6e4     MSVCRT:throw_bad_alloc.obj
+ 0002:000006f8       ??_R3bad_array_new_length@std@@8 0040a6f8     MSVCRT:throw_bad_alloc.obj
+ 0002:00000708       ??_R2bad_array_new_length@std@@8 0040a708     MSVCRT:throw_bad_alloc.obj
+ 0002:00000718       ??_R1A@?0A@EA@bad_array_new_length@std@@8 0040a718     MSVCRT:throw_bad_alloc.obj
+ 0002:00000734       ??_R2_Generic_error_category@std@@8 0040a734     main.obj
+ 0002:00000740       ??_R1A@?0A@EA@_System_error@std@@8 0040a740     main.obj
+ 0002:0000075c       ??_R3error_category@std@@8 0040a75c     main.obj
+ 0002:0000076c       ??_R3_System_error_category@std@@8 0040a76c     main.obj
+ 0002:0000077c       ??_R2runtime_error@std@@8  0040a77c     main.obj
+ 0002:00000788       ??_R3system_error@std@@8   0040a788     main.obj
+ 0002:00000798       ??_R1A@?0A@EA@_System_error_category@std@@8 0040a798     main.obj
+ 0002:000007b4       ??_R3runtime_error@std@@8  0040a7b4     main.obj
+ 0002:000007c4       ??_R1A@?0A@EA@error_category@std@@8 0040a7c4     main.obj
+ 0002:000007e0       ??_R4exception@std@@6B@    0040a7e0     main.obj
+ 0002:000007f4       ??_R2system_error@std@@8   0040a7f4     main.obj
+ 0002:00000808       ??_R1A@?0A@EA@system_error@std@@8 0040a808     main.obj
+ 0002:00000824       ??_R4runtime_error@std@@6B@ 0040a824     main.obj
+ 0002:00000838       ??_R4_System_error_category@std@@6B@ 0040a838     main.obj
+ 0002:0000084c       ??_R4_System_error@std@@6B@ 0040a84c     main.obj
+ 0002:00000860       ??_R4_Generic_error_category@std@@6B@ 0040a860     main.obj
+ 0002:00000874       ??_R1A@?0A@EA@runtime_error@std@@8 0040a874     main.obj
+ 0002:00000890       ??_R2_System_error@std@@8  0040a890     main.obj
+ 0002:000008a0       ??_R1A@?0A@EA@exception@std@@8 0040a8a0     main.obj
+ 0002:000008bc       ??_R4system_error@std@@6B@ 0040a8bc     main.obj
+ 0002:000008d0       ??_R1A@?0A@EA@_Generic_error_category@std@@8 0040a8d0     main.obj
+ 0002:000008ec       ??_R3_System_error@std@@8  0040a8ec     main.obj
+ 0002:000008fc       ??_R2_System_error_category@std@@8 0040a8fc     main.obj
+ 0002:00000908       ??_R2exception@std@@8      0040a908     main.obj
+ 0002:00000910       ??_R3_Generic_error_category@std@@8 0040a910     main.obj
+ 0002:00000920       ??_R2error_category@std@@8 0040a920     main.obj
+ 0002:00000928       ??_R3exception@std@@8      0040a928     main.obj
+ 0002:00000938       ??_R2?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@8 0040a938     browseTheFolderTree.obj
+ 0002:00000944       ??_R1A@?0A@EA@_Ref_count_base@std@@8 0040a944     browseTheFolderTree.obj
+ 0002:00000960       ??_R3?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@8 0040a960     browseTheFolderTree.obj
+ 0002:00000970       ??_R1A@?0A@EA@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@8 0040a970     browseTheFolderTree.obj
+ 0002:0000098c       ??_R3filesystem_error@filesystem@std@@8 0040a98c     browseTheFolderTree.obj
+ 0002:0000099c       ??_R3_Ref_count_base@std@@8 0040a99c     browseTheFolderTree.obj
+ 0002:000009ac       ??_R2filesystem_error@filesystem@std@@8 0040a9ac     browseTheFolderTree.obj
+ 0002:000009c4       ??_R2_Ref_count_base@std@@8 0040a9c4     browseTheFolderTree.obj
+ 0002:000009cc       ??_R1A@?0A@EA@filesystem_error@filesystem@std@@8 0040a9cc     browseTheFolderTree.obj
+ 0002:000009e8       ??_R4?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@6B@ 0040a9e8     browseTheFolderTree.obj
+ 0002:000009fc       ??_R4filesystem_error@filesystem@std@@6B@ 0040a9fc     browseTheFolderTree.obj
+ 0002:00000a10       ___safe_se_handler_table   0040aa10     <linker-defined>
+ 0002:00000d9c       ___rtc_iaa                 0040ad9c     MSVCRT:_initsect_.obj
+ 0002:00000da0       ___rtc_izz                 0040ada0     MSVCRT:_initsect_.obj
+ 0002:00000da4       ___rtc_taa                 0040ada4     MSVCRT:_initsect_.obj
+ 0002:00000da8       ___rtc_tzz                 0040ada8     MSVCRT:_initsect_.obj
+ 0002:000012e4       __TI2?AVbad_alloc@std@@    0040b2e4     MSVCRT:throw_bad_alloc.obj
+ 0002:000012f4       __CTA2?AVbad_alloc@std@@   0040b2f4     MSVCRT:throw_bad_alloc.obj
+ 0002:00001300       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 0040b300     MSVCRT:throw_bad_alloc.obj
+ 0002:0000131c       __TI3?AVbad_array_new_length@std@@ 0040b31c     MSVCRT:throw_bad_alloc.obj
+ 0002:0000132c       __CTA3?AVbad_array_new_length@std@@ 0040b32c     MSVCRT:throw_bad_alloc.obj
+ 0002:0000133c       __CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12 0040b33c     MSVCRT:throw_bad_alloc.obj
+ 0002:00001374       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0040b374     main.obj
+ 0002:00001390       __CT??_R0?AV_System_error@std@@@8??0_System_error@std@@QAE@ABV01@@Z20 0040b390     main.obj
+ 0002:000013ac       __TI4?AVsystem_error@std@@ 0040b3ac     main.obj
+ 0002:000013bc       __CTA4?AVsystem_error@std@@ 0040b3bc     main.obj
+ 0002:000013d0       __CT??_R0?AVsystem_error@std@@@8??0system_error@std@@QAE@ABV01@@Z20 0040b3d0     main.obj
+ 0002:000013ec       __CT??_R0?AVruntime_error@std@@@8??0runtime_error@std@@QAE@ABV01@@Z12 0040b3ec     main.obj
+ 0002:00001408       __TI5?AVfilesystem_error@filesystem@std@@ 0040b408     browseTheFolderTree.obj
+ 0002:00001418       __CT??_R0?AVfilesystem_error@filesystem@std@@@8??0filesystem_error@filesystem@std@@QAE@ABV012@@Z92 0040b418     browseTheFolderTree.obj
+ 0002:00001434       __CTA5?AVfilesystem_error@filesystem@std@@ 0040b434     browseTheFolderTree.obj
+ 0002:000014d0       __IMPORT_DESCRIPTOR_KERNEL32 0040b4d0     kernel32:KERNEL32.dll
+ 0002:000014e4       __IMPORT_DESCRIPTOR_MSVCP140 0040b4e4     msvcprt:MSVCP140.dll
+ 0002:000014f8       __IMPORT_DESCRIPTOR_VCRUNTIME140 0040b4f8     vcruntime:VCRUNTIME140.dll
+ 0002:0000150c       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 0040b50c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001520       __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0 0040b520     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:00001534       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0040b534     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00001548       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 0040b548     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:0000155c       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 0040b55c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00001570       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0040b570     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00001584       __NULL_IMPORT_DESCRIPTOR   0040b584     kernel32:KERNEL32.dll
+ 0003:00000000       ___security_cookie         0040c000     MSVCRT:gs_cookie.obj
+ 0003:00000004       ___security_cookie_complement 0040c004     MSVCRT:gs_cookie.obj
+ 0003:00000008       ___scrt_native_dllmain_reason 0040c008     MSVCRT:utility.obj
+ 0003:0000000c       ___scrt_default_matherr    0040c00c     MSVCRT:matherr.obj
+ 0003:00000010       ___isa_enabled             0040c010     MSVCRT:_cpu_disp_.obj
+ 0003:00000014       ___scrt_ucrt_dll_is_in_use 0040c014     MSVCRT:ucrt_stubs.obj
+ 0003:00000020       ??_R0?AVtype_info@@@8      0040c020     MSVCRT:std_type_info_static.obj
+ 0003:00000038       ??_R0?AVbad_alloc@std@@@8  0040c038     MSVCRT:throw_bad_alloc.obj
+ 0003:00000054       ??_R0?AVbad_array_new_length@std@@@8 0040c054     MSVCRT:throw_bad_alloc.obj
+ 0003:0000007c       ??_R0?AV_System_error@std@@@8 0040c07c     main.obj
+ 0003:0000009c       ??_R0?AVexception@std@@@8  0040c09c     main.obj
+ 0003:000000b8       ??_R0?AVruntime_error@std@@@8 0040c0b8     main.obj
+ 0003:000000d8       ??_R0?AVerror_category@std@@@8 0040c0d8     main.obj
+ 0003:000000fc       ??_R0?AVsystem_error@std@@@8 0040c0fc     main.obj
+ 0003:0000011c       ??_R0?AV_System_error_category@std@@@8 0040c11c     main.obj
+ 0003:00000148       ??_R0?AV_Generic_error_category@std@@@8 0040c148     main.obj
+ 0003:00000178       ??_R0?AV?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@@8 0040c178     browseTheFolderTree.obj
+ 0003:000001bc       ??_R0?AV_Ref_count_base@std@@@8 0040c1bc     browseTheFolderTree.obj
+ 0003:000001e0       ??_R0?AVfilesystem_error@filesystem@std@@@8 0040c1e0     browseTheFolderTree.obj
+ 0003:00000210       ?GetFinalPathNameByHandleW_p@?A0xb492ae71@@3P6GKPAXPA_WKK@ZA 0040c210     msvcprt:filesystem.obj
+ 0003:00000214       ?_GetFileInformationByHandleEx_p@?A0xb492ae71@@3P6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@ZA 0040c214     msvcprt:filesystem.obj
+ 0003:00000218       ?_SetFileInformationByHandle_p@?A0xb492ae71@@3P6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@ZA 0040c218     msvcprt:filesystem.obj
+ 0003:0000021c       ?_CreateSymbolicLinkW_p@?A0xb492ae71@@3P6GEPB_W0K@ZA 0040c21c     msvcprt:filesystem.obj
+ 0003:00000558       ___scrt_current_native_startup_state 0040c558     MSVCRT:utility.obj
+ 0003:0000055c       ___scrt_native_startup_lock 0040c55c     MSVCRT:utility.obj
+ 0003:00000568       ?__type_info_root_node@@3U__type_info_node@@A 0040c568     MSVCRT:tncleanup.obj
+ 0003:00000570       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0040c570     MSVCRT:default_local_stdio_options.obj
+ 0003:00000578       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0040c578     MSVCRT:default_local_stdio_options.obj
+ 0003:00000580       ___scrt_debugger_hook_flag 0040c580     MSVCRT:utility_desktop.obj
+ 0003:00000584       ___isa_available           0040c584     MSVCRT:_cpu_disp_.obj
+ 0003:00000588       ___favor                   0040c588     MSVCRT:_cpu_disp_.obj
+ 0003:0000058c       ?_Flag@?1???$_Immortalize@V_System_error_category@std@@@std@@YAAAV_System_error_category@1@XZ@4PAXA 0040c58c     main.obj
+ 0003:00000590       ?_Storage@?1???$_Immortalize@V_System_error_category@std@@@std@@YAAAV_System_error_category@1@XZ@4T?$_Align_type@H$07@1@A 0040c590     main.obj
+ 0003:00000598       ?_Flag@?1???$_Immortalize@V_Generic_error_category@std@@@std@@YAAAV_Generic_error_category@1@XZ@4PAXA 0040c598     main.obj
+ 0003:0000059c       ?_Storage@?1???$_Immortalize@V_Generic_error_category@std@@@std@@YAAAV_Generic_error_category@1@XZ@4T?$_Align_type@H$07@1@A 0040c59c     main.obj
+ 0003:000005a4       ___dyn_tls_dtor_callback   0040c5a4     <common>
+ 0003:000005a8       ___dyn_tls_init_callback   0040c5a8     <common>
+
+ entry point at        0001:00007698
+
+ Static symbols
+
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     ProcessingAndSelectionOfInputData.exp
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     msvcprt:MSVCP140.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff1000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0001:00001c00       ??R<lambda_c3135ae829aeedc0a8af1bd1e887c66a>@@QBEXQA_WQB_WII_W@Z 00402c00 f   main.obj
+ 0001:00002110       ??R<lambda_c6753c90be971fc9cc00b4f35f237a75>@@QBEXQADID@Z 00403110 f   main.obj
+ 0001:00002210       ??R<lambda_9366063389c5f42a00a5088cf24e69de>@@QBEXQADIQBD@Z 00403210 f   main.obj
+ 0001:000022f0       ??R<lambda_c1b8c41cb4019640539cfd828748c4d4>@@QBEXQADQBDIID@Z 004032f0 f   main.obj
+ 0001:000023f0       ??R<lambda_ab246b20b9526e2ef7792587e4298a77>@@QBEXQADQBDI1I@Z 004033f0 f   main.obj
+ 0001:00002970       ??$_Reallocate_grow_by@V<lambda_c3135ae829aeedc0a8af1bd1e887c66a>@@I_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@IV<lambda_c3135ae829aeedc0a8af1bd1e887c66a>@@I_W@Z 00403970 f   main.obj
+ 0001:00002af0       ??$_Reallocate_for@V<lambda_c6753c90be971fc9cc00b4f35f237a75>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_c6753c90be971fc9cc00b4f35f237a75>@@D@Z 00403af0 f   main.obj
+ 0001:00002bf0       ??$_Reallocate_for@V<lambda_9366063389c5f42a00a5088cf24e69de>@@PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_9366063389c5f42a00a5088cf24e69de>@@PBD@Z 00403bf0 f   main.obj
+ 0001:00002cf0       ??$_Reallocate_grow_by@V<lambda_c1b8c41cb4019640539cfd828748c4d4>@@ID@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_c1b8c41cb4019640539cfd828748c4d4>@@ID@Z 00403cf0 f   main.obj
+ 0001:00002e40       ??$_Reallocate_grow_by@V<lambda_ab246b20b9526e2ef7792587e4298a77>@@PBDI@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_ab246b20b9526e2ef7792587e4298a77>@@PBDI@Z 00403e40 f   main.obj
+ 0001:000052c0       ??R<lambda_38fb7828f6004e9a4c6a38bfc6df7f44>@@QBEXQA_WQB_WI_W@Z 004062c0 f   browseTheFolderTree.obj
+ 0001:00005410       ??R<lambda_2fb699096920f2dc628cb0826b07831d>@@QBEXQA_WQB_WI1I@Z 00406410 f   browseTheFolderTree.obj
+ 0001:00005600       ??R<lambda_67d87d4aa1269033985980465fd1d824>@@QBEXQADQBDI@Z 00406600 f   browseTheFolderTree.obj
+ 0001:00005940       ??R<lambda_03628ca18370b1f44a99b655e704819b>@@QBEXQA_WIQB_W@Z 00406940 f   browseTheFolderTree.obj
+ 0001:00005a40       ??R<lambda_15711c68e099a15a58f4d77303cb286d>@@QBEXQADQBDID@Z 00406a40 f   browseTheFolderTree.obj
+ 0001:00006130       ??$_Reallocate_grow_by@V<lambda_38fb7828f6004e9a4c6a38bfc6df7f44>@@_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@IV<lambda_38fb7828f6004e9a4c6a38bfc6df7f44>@@_W@Z 00407130 f   browseTheFolderTree.obj
+ 0001:00006280       ??$_Reallocate_grow_by@V<lambda_2fb699096920f2dc628cb0826b07831d>@@PB_WI@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@IV<lambda_2fb699096920f2dc628cb0826b07831d>@@PB_WI@Z 00407280 f   browseTheFolderTree.obj
+ 0001:000063d0       ??$_Reallocate_grow_by@V<lambda_67d87d4aa1269033985980465fd1d824>@@$$V@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_67d87d4aa1269033985980465fd1d824>@@@Z 004073d0 f   browseTheFolderTree.obj
+ 0001:00006550       ??$_Reallocate_for@V<lambda_03628ca18370b1f44a99b655e704819b>@@PB_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@IV<lambda_03628ca18370b1f44a99b655e704819b>@@PB_W@Z 00407550 f   browseTheFolderTree.obj
+ 0001:00006650       ??$_Reallocate_grow_by@V<lambda_15711c68e099a15a58f4d77303cb286d>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_15711c68e099a15a58f4d77303cb286d>@@D@Z 00407650 f   browseTheFolderTree.obj
+ 0001:00006e22       ??$_Runtime_dynamic_link@P6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@Z@?A0xb492ae71@@YGP6GHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@ZQCR6GH010K@ZQB_WQBDQ6GH010K@Z@Z 00407e22 f   msvcprt:filesystem.obj
+ 0001:00006e93       ?_Not_supported_GetFileInformationByHandleEx@?A0xb492ae71@@YGHPAXW4_FILE_INFO_BY_HANDLE_CLASS@@0K@Z 00407e93 f   msvcprt:filesystem.obj
+ 0001:00007462       ?pre_c_initialization@@YAHXZ 00408462 f   MSVCRT:exe_main.obj
+ 0001:00007506       ?post_pgo_initialization@@YAHXZ 00408506 f   MSVCRT:exe_main.obj
+ 0001:0000750e       ?pre_cpp_initialization@@YAXXZ 0040850e f   MSVCRT:exe_main.obj
+ 0001:00007520       ?__scrt_common_main_seh@@YAHXZ 00408520 f   MSVCRT:exe_main.obj
+ 0001:000078a9       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 004088a9 f   MSVCRT:utility.obj
+ 0001:00007b21       ___get_entropy             00408b21 f   MSVCRT:gs_support.obj
+ 0001:00007e50       $$000000                   00408e50     MSVCRT:_sehprolg4_.obj
+ 0001:00008150       $$000000                   00409150     MSVCRT:llshl.obj
+ 0001:00008180       __unwindfunclet$?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z$0 00409180 f   main.obj
+ 0001:00008188       __unwindfunclet$?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z$1 00409188 f   main.obj
+ 0001:00008190       __ehhandler$?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z 00409190 f   main.obj
+ 0001:000081b0       __unwindfunclet$??0_System_error@std@@IAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z$1 004091b0 f   main.obj
+ 0001:000081b8       __ehhandler$??0_System_error@std@@IAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 004091b8 f   main.obj
+ 0001:000081e0       __unwindfunclet$??0system_error@std@@QAE@Verror_code@1@@Z$0 004091e0 f   main.obj
+ 0001:000081e8       __ehhandler$??0system_error@std@@QAE@Verror_code@1@@Z 004091e8 f   main.obj
+ 0001:00008210       __unwindfunclet$?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z$0 00409210 f   main.obj
+ 0001:00008218       __ehhandler$?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 00409218 f   main.obj
+ 0001:00008240       __ehhandler$?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 00409240 f   browseTheFolderTree.obj
+ 0001:00008240       __ehhandler$?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00409240 f   main.obj
+ 0001:00008240       __ehhandler$?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEPA_WXZ 00409240 f   main.obj
+ 0001:00008240       __ehhandler$?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ 00409240 f   main.obj
+ 0001:00008240       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 00409240 f   main.obj
+ 0001:00008240       __ehhandler$??0_Find_file_handle@filesystem@std@@QAE@$$QAU012@@Z 00409240 f   browseTheFolderTree.obj
+ 0001:00008240       __ehhandler$?_Destroy@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@EAEXXZ 00409240 f   browseTheFolderTree.obj
+ 0001:00008240       __ehhandler$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 00409240 f   main.obj
+ 0001:00008240       __ehhandler$??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@$$QAV01@@Z 00409240 f   browseTheFolderTree.obj
+ 0001:00008240       __ehhandler$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@$$QAV01@@Z 00409240 f   main.obj
+ 0001:00008240       __ehhandler$?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z 00409240 f   main.obj
+ 0001:00008240       __ehhandler$??B?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBE?AV?$basic_string_view@_WU?$char_traits@_W@std@@@1@XZ 00409240 f   main.obj
+ 0001:00008240       __ehhandler$?c_str@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 00409240 f   browseTheFolderTree.obj
+ 0001:00008260       __ehhandler$?generic_category@std@@YAABVerror_category@1@XZ 00409260 f   main.obj
+ 0001:00008260       __ehhandler$?system_category@std@@YAABVerror_category@1@XZ 00409260 f   main.obj
+ 0001:00008280       __unwindfunclet$?_Convert_narrow_to_wide@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@W4__std_code_page@@V?$basic_string_view@DU?$char_traits@D@std@@@2@@Z$0 00409280 f   main.obj
+ 0001:00008288       __ehhandler$?_Convert_narrow_to_wide@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@W4__std_code_page@@V?$basic_string_view@DU?$char_traits@D@std@@@2@@Z 00409288 f   main.obj
+ 0001:000082b0       __unwindfunclet$_main$0    004092b0 f   main.obj
+ 0001:000082b8       __unwindfunclet$_main$1    004092b8 f   main.obj
+ 0001:000082c0       __unwindfunclet$_main$3    004092c0 f   main.obj
+ 0001:000082c8       __ehhandler$_main          004092c8 f   main.obj
+ 0001:000082f0       __ehhandler$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 004092f0 f   main.obj
+ 0001:000082f0       __ehhandler$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 004092f0 f   main.obj
+ 0001:000082f0       __ehhandler$??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 004092f0 f   main.obj
+ 0001:000082f0       __ehhandler$?_Skip_dots@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@W4__std_fs_dir_handle@@AAU__std_fs_find_data@@@Z 004092f0 f   browseTheFolderTree.obj
+ 0001:000082f0       __ehhandler$??1?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@QAE@XZ 004092f0 f   browseTheFolderTree.obj
+ 0001:000082f0       __ehhandler$??1?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@XZ 004092f0 f   browseTheFolderTree.obj
+ 0001:000082f0       __ehhandler$??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAV01@@Z 004092f0 f   browseTheFolderTree.obj
+ 0001:000082f0       __ehhandler$??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@ABV01@@Z 004092f0 f   browseTheFolderTree.obj
+ 0001:000082f0       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z 004092f0 f   main.obj
+ 0001:000082f0       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 004092f0 f   browseTheFolderTree.obj
+ 0001:00008310       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z$0 00409310 f   main.obj
+ 0001:00008310       __unwindfunclet$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z$0 00409310 f   main.obj
+ 0001:00008318       __ehhandler$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z 00409318 f   main.obj
+ 0001:00008318       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 00409318 f   main.obj
+ 0001:00008340       __unwindfunclet$??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@_W@1@@Z$0 00409340 f   browseTheFolderTree.obj
+ 0001:00008340       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 00409340 f   main.obj
+ 0001:00008340       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z$0 00409340 f   main.obj
+ 0001:00008348       __ehhandler$??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@_W@1@@Z 00409348 f   browseTheFolderTree.obj
+ 0001:00008348       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 00409348 f   main.obj
+ 0001:00008348       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 00409348 f   main.obj
+ 0001:00008370       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00409370 f   main.obj
+ 0001:00008370       __ehhandler$?remove_filename@path@filesystem@std@@QAEAAV123@XZ 00409370 f   browseTheFolderTree.obj
+ 0001:00008370       __ehhandler$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 00409370 f   main.obj
+ 0001:00008390       __unwindfunclet$??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z$0 00409390 f   main.obj
+ 0001:00008398       __ehhandler$??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z 00409398 f   main.obj
+ 0001:000083c0       __ehhandler$?is_absolute@path@filesystem@std@@QBE_NXZ 004093c0 f   browseTheFolderTree.obj
+ 0001:000083e0       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z$0 004093e0 f   browseTheFolderTree.obj
+ 0001:000083e8       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z$1 004093e8 f   browseTheFolderTree.obj
+ 0001:000083f3       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z$2 004093f3 f   browseTheFolderTree.obj
+ 0001:000083fe       __ehhandler$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z 004093fe f   browseTheFolderTree.obj
+ 0001:00008420       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z$0 00409420 f   browseTheFolderTree.obj
+ 0001:00008428       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z$1 00409428 f   browseTheFolderTree.obj
+ 0001:00008433       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z$2 00409433 f   browseTheFolderTree.obj
+ 0001:0000843e       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z$3 0040943e f   browseTheFolderTree.obj
+ 0001:00008446       __ehhandler$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z 00409446 f   browseTheFolderTree.obj
+ 0001:00008470       __unwindfunclet$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z$0 00409470 f   browseTheFolderTree.obj
+ 0001:00008478       __unwindfunclet$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z$1 00409478 f   browseTheFolderTree.obj
+ 0001:00008480       __unwindfunclet$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z$2 00409480 f   browseTheFolderTree.obj
+ 0001:00008488       __ehhandler$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z 00409488 f   browseTheFolderTree.obj
+ 0001:000084b0       __unwindfunclet$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@ABVpath@12@@Z$0 004094b0 f   browseTheFolderTree.obj
+ 0001:000084b0       __unwindfunclet$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@@Z$0 004094b0 f   browseTheFolderTree.obj
+ 0001:000084b8       __ehhandler$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@@Z 004094b8 f   browseTheFolderTree.obj
+ 0001:000084b8       __ehhandler$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@ABVpath@12@@Z 004094b8 f   browseTheFolderTree.obj
+ 0001:000084e0       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z$0 004094e0 f   browseTheFolderTree.obj
+ 0001:000084e8       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z$1 004094e8 f   browseTheFolderTree.obj
+ 0001:000084f3       __unwindfunclet$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z$2 004094f3 f   browseTheFolderTree.obj
+ 0001:000084fe       __ehhandler$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z 004094fe f   browseTheFolderTree.obj
+ 0001:00008520       __unwindfunclet$??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z$0 00409520 f   browseTheFolderTree.obj
+ 0001:00008528       __unwindfunclet$??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z$1 00409528 f   browseTheFolderTree.obj
+ 0001:00008533       __ehhandler$??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z 00409533 f   browseTheFolderTree.obj
+ 0001:00008550       __unwindfunclet$?_Refresh@_Dir_enum_impl@filesystem@std@@QAEXABU__std_fs_find_data@@@Z$0 00409550 f   browseTheFolderTree.obj
+ 0001:00008558       __ehhandler$?_Refresh@_Dir_enum_impl@filesystem@std@@QAEXABU__std_fs_find_data@@@Z 00409558 f   browseTheFolderTree.obj
+ 0001:00008580       __unwindfunclet$??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z$0 00409580 f   browseTheFolderTree.obj
+ 0001:00008588       __unwindfunclet$??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z$1 00409588 f   browseTheFolderTree.obj
+ 0001:00008593       __ehhandler$??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z 00409593 f   browseTheFolderTree.obj
+ 0001:000085b0       __unwindfunclet$??0directory_iterator@filesystem@std@@QAE@ABVpath@12@@Z$0 004095b0 f   browseTheFolderTree.obj
+ 0001:000085b8       __ehhandler$??0directory_iterator@filesystem@std@@QAE@ABVpath@12@@Z 004095b8 f   browseTheFolderTree.obj
+ 0001:000085e0       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$0 004095e0 f   browseTheFolderTree.obj
+ 0001:000085e8       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$1 004095e8 f   browseTheFolderTree.obj
+ 0001:000085f0       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$3 004095f0 f   browseTheFolderTree.obj
+ 0001:000085f8       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$5 004095f8 f   browseTheFolderTree.obj
+ 0001:00008600       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$7 00409600 f   browseTheFolderTree.obj
+ 0001:0000860b       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$8 0040960b f   browseTheFolderTree.obj
+ 0001:00008613       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$9 00409613 f   browseTheFolderTree.obj
+ 0001:0000861b       __unwindfunclet$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z$10 0040961b f   browseTheFolderTree.obj
+ 0001:00008626       __ehhandler$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z 00409626 f   browseTheFolderTree.obj
+ 0001:00008650       __unwindfunclet$??$?_0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAEAAV012@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@@Z$0 00409650 f   browseTheFolderTree.obj
+ 0001:00008658       __ehhandler$??$?_0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAEAAV012@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@@Z 00409658 f   browseTheFolderTree.obj
+ 0001:00008680       __unwindfunclet$??$_Initialize_dir_enum@U_Dir_enum_impl@filesystem@std@@@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@2@ABVpath@12@W4directory_options@12@@Z$0 00409680 f   browseTheFolderTree.obj
+ 0001:0000868b       __ehhandler$??$_Initialize_dir_enum@U_Dir_enum_impl@filesystem@std@@@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@2@ABVpath@12@W4directory_options@12@@Z 0040968b f   browseTheFolderTree.obj
+ 0001:000086c0       __unwindfunclet$??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z$0 004096c0 f   browseTheFolderTree.obj
+ 0001:000086cf       __unwindfunclet$??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z$1 004096cf f   browseTheFolderTree.obj
+ 0001:000086d7       __ehhandler$??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z 004096d7 f   browseTheFolderTree.obj
+ 0001:00008700       __unwindfunclet$??$?0U_Creator@_Dir_enum_impl@filesystem@std@@ABW4directory_options@23@@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAU_Creator@_Dir_enum_impl@filesystem@1@ABW4directory_options@41@@Z$0 00409700 f   browseTheFolderTree.obj
+ 0001:00008708       __ehhandler$??$?0U_Creator@_Dir_enum_impl@filesystem@std@@ABW4directory_options@23@@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAU_Creator@_Dir_enum_impl@filesystem@1@ABW4directory_options@41@@Z 00409708 f   browseTheFolderTree.obj
+ 0001:00008723       __ehhandler$___std_fs_get_stats@16 00409723 f   msvcprt:filesystem.obj
+ 0002:00000154       ?pre_cpp_initializer@@3P6AXXZA 0040a154     MSVCRT:exe_main.obj
+ 0002:00000160       ?pre_c_initializer@@3P6AHXZA 0040a160     MSVCRT:exe_main.obj
+ 0002:00000164       ?post_pgo_initializer@@3P6AHXZA 0040a164     MSVCRT:exe_main.obj
+ 0002:000001c4       _GS_ExceptionPointers      0040a1c4     MSVCRT:gs_report.obj
+ 0002:00000218       $SG4294967187              0040a218     getImportFunctionName.obj
+ 0002:000002b4       $SG4294967186              0040a2b4     getImportFunctionName.obj
+ 0002:000002da       $SG4294967185              0040a2da     getImportFunctionName.obj
+ 0002:000002db       $SG4294967184              0040a2db     getImportFunctionName.obj
+ 0002:000002dc       $SG4294967019              0040a2dc     getImportFunctionName.obj
+ 0002:000002ec       $SG4294967018              0040a2ec     getImportFunctionName.obj
+ 0002:000002f8       $SG4294957402              0040a2f8     main.obj
+ 0002:000002fe       $SG4294941259              0040a2fe     browseTheFolderTree.obj
+ 0002:000002ff       $SG4294941258              0040a2ff     browseTheFolderTree.obj
+ 0002:00000300       $SG4294941261              0040a300     browseTheFolderTree.obj
+ 0002:0000039c       $SG4294941260              0040a39c     browseTheFolderTree.obj
+ 0002:00000db0       __ehfuncinfo$?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z 0040adb0     main.obj
+ 0002:00000dd4       __unwindtable$?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z 0040add4     main.obj
+ 0002:00000de4       __ehfuncinfo$??0_System_error@std@@IAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0040ade4     main.obj
+ 0002:00000e08       __unwindtable$??0_System_error@std@@IAE@Verror_code@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0040ae08     main.obj
+ 0002:00000e10       __ehfuncinfo$??0system_error@std@@QAE@Verror_code@1@@Z 0040ae10     main.obj
+ 0002:00000e34       __unwindtable$??0system_error@std@@QAE@Verror_code@1@@Z 0040ae34     main.obj
+ 0002:00000e3c       __ehfuncinfo$?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 0040ae3c     main.obj
+ 0002:00000e60       __unwindtable$?message@_System_error_category@std@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 0040ae60     main.obj
+ 0002:00000e68       __ehfuncinfo$??B?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBE?AV?$basic_string_view@_WU?$char_traits@_W@std@@@1@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@$$QAV01@@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??1?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@QAE@XZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$??1?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@XZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAV01@@Z 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEPA_WXZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?generic_category@std@@YAABVerror_category@1@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?system_category@std@@YAABVerror_category@1@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?_Destroy@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@EAEXXZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$??4?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEAAV01@$$QAV01@@Z 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?c_str@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?_Skip_dots@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@W4__std_fs_dir_handle@@AAU__std_fs_find_data@@@Z 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?data@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QBEPB_WXZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?is_absolute@path@filesystem@std@@QBE_NXZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?_Assign_rv_contents_with_alloc_always_equal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX$$QAV12@U?$integral_constant@_N$00@2@@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$?remove_filename@path@filesystem@std@@QAEAAV123@XZ 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$??0_Find_file_handle@filesystem@std@@QAE@$$QAU012@@Z 0040ae68     browseTheFolderTree.obj
+ 0002:00000e68       __ehfuncinfo$?data@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z 0040ae68     main.obj
+ 0002:00000e68       __ehfuncinfo$??0?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@std@@QAE@ABV01@@Z 0040ae68     browseTheFolderTree.obj
+ 0002:00000e8c       __ehfuncinfo$?_Convert_narrow_to_wide@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@W4__std_code_page@@V?$basic_string_view@DU?$char_traits@D@std@@@2@@Z 0040ae8c     main.obj
+ 0002:00000eb0       __unwindtable$?_Convert_narrow_to_wide@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@W4__std_code_page@@V?$basic_string_view@DU?$char_traits@D@std@@@2@@Z 0040aeb0     main.obj
+ 0002:00000eb8       __ehfuncinfo$_main         0040aeb8     main.obj
+ 0002:00000edc       __unwindtable$_main        0040aedc     main.obj
+ 0002:00000ef4       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 0040aef4     main.obj
+ 0002:00000ef4       __ehfuncinfo$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z 0040aef4     main.obj
+ 0002:00000f18       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 0040af18     main.obj
+ 0002:00000f18       __unwindtable$??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV01@@Z 0040af18     main.obj
+ 0002:00000f20       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 0040af20     main.obj
+ 0002:00000f20       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 0040af20     main.obj
+ 0002:00000f20       __ehfuncinfo$??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@_W@1@@Z 0040af20     browseTheFolderTree.obj
+ 0002:00000f44       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 0040af44     main.obj
+ 0002:00000f44       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z 0040af44     main.obj
+ 0002:00000f44       __unwindtable$??$?0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@X@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QAE@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@_W@1@@Z 0040af44     browseTheFolderTree.obj
+ 0002:00000f4c       __ehfuncinfo$??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z 0040af4c     main.obj
+ 0002:00000f70       __unwindtable$??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@ABV?$allocator@D@1@@Z 0040af70     main.obj
+ 0002:00000f78       __ehfuncinfo$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z 0040af78     browseTheFolderTree.obj
+ 0002:00000f9c       __unwindtable$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@@Z 0040af9c     browseTheFolderTree.obj
+ 0002:00000fb4       __ehfuncinfo$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z 0040afb4     browseTheFolderTree.obj
+ 0002:00000fd8       __unwindtable$??0filesystem_error@filesystem@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@ABVpath@12@Verror_code@2@@Z 0040afd8     browseTheFolderTree.obj
+ 0002:00000ff8       __ehfuncinfo$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z 0040aff8     browseTheFolderTree.obj
+ 0002:0000101c       __unwindtable$?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@ABVpath@23@1@Z 0040b01c     browseTheFolderTree.obj
+ 0002:00001034       __ehfuncinfo$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@@Z 0040b034     browseTheFolderTree.obj
+ 0002:00001034       __ehfuncinfo$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@ABVpath@12@@Z 0040b034     browseTheFolderTree.obj
+ 0002:00001058       __unwindtable$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@@Z 0040b058     browseTheFolderTree.obj
+ 0002:00001058       __unwindtable$?_Throw_fs_error@filesystem@std@@YAXPBDW4__std_win_error@@ABVpath@12@@Z 0040b058     browseTheFolderTree.obj
+ 0002:00001060       __ehfuncinfo$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z 0040b060     browseTheFolderTree.obj
+ 0002:00001084       __unwindtable$??0filesystem_error@filesystem@std@@QAE@ABV012@@Z 0040b084     browseTheFolderTree.obj
+ 0002:0000109c       __ehfuncinfo$??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z 0040b09c     browseTheFolderTree.obj
+ 0002:000010c0       __unwindtable$??0_Creator@_Dir_enum_impl@filesystem@std@@QAE@ABVpath@23@W4directory_options@23@@Z 0040b0c0     browseTheFolderTree.obj
+ 0002:000010d0       __ehfuncinfo$?_Refresh@_Dir_enum_impl@filesystem@std@@QAEXABU__std_fs_find_data@@@Z 0040b0d0     browseTheFolderTree.obj
+ 0002:000010f4       __unwindtable$?_Refresh@_Dir_enum_impl@filesystem@std@@QAEXABU__std_fs_find_data@@@Z 0040b0f4     browseTheFolderTree.obj
+ 0002:000010fc       __ehfuncinfo$??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z 0040b0fc     browseTheFolderTree.obj
+ 0002:00001120       __unwindtable$??0_Dir_enum_impl@filesystem@std@@QAE@$$QAU_Creator@012@W4directory_options@12@@Z 0040b120     browseTheFolderTree.obj
+ 0002:00001130       __ehfuncinfo$??0directory_iterator@filesystem@std@@QAE@ABVpath@12@@Z 0040b130     browseTheFolderTree.obj
+ 0002:00001154       __unwindtable$??0directory_iterator@filesystem@std@@QAE@ABVpath@12@@Z 0040b154     browseTheFolderTree.obj
+ 0002:00001160       __ehfuncinfo$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z 0040b160     browseTheFolderTree.obj
+ 0002:00001188       __unwindtable$?browseTheFolderTree@@YAXVpath@filesystem@std@@I@Z 0040b188     browseTheFolderTree.obj
+ 0002:000011d0       __ehfuncinfo$??$?_0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAEAAV012@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@@Z 0040b1d0     browseTheFolderTree.obj
+ 0002:000011f4       __unwindtable$??$?_0V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@$0A@@path@filesystem@std@@QAEAAV012@ABV?$basic_string_view@_WU?$char_traits@_W@std@@@2@@Z 0040b1f4     browseTheFolderTree.obj
+ 0002:000011fc       __ehfuncinfo$??$_Initialize_dir_enum@U_Dir_enum_impl@filesystem@std@@@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@2@ABVpath@12@W4directory_options@12@@Z 0040b1fc     browseTheFolderTree.obj
+ 0002:00001220       __unwindtable$??$_Initialize_dir_enum@U_Dir_enum_impl@filesystem@std@@@_Dir_enum_impl@filesystem@std@@SA?AW4__std_win_error@@AAV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@2@ABVpath@12@W4directory_options@12@@Z 0040b220     browseTheFolderTree.obj
+ 0002:00001228       __ehfuncinfo$??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z 0040b228     browseTheFolderTree.obj
+ 0002:0000124c       __unwindtable$??$make_shared@U_Dir_enum_impl@filesystem@std@@U_Creator@123@ABW4directory_options@23@@std@@YA?AV?$shared_ptr@U_Dir_enum_impl@filesystem@std@@@0@$$QAU_Creator@_Dir_enum_impl@filesystem@0@ABW4directory_options@40@@Z 0040b24c     browseTheFolderTree.obj
+ 0002:0000125c       __ehfuncinfo$??$?0U_Creator@_Dir_enum_impl@filesystem@std@@ABW4directory_options@23@@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAU_Creator@_Dir_enum_impl@filesystem@1@ABW4directory_options@41@@Z 0040b25c     browseTheFolderTree.obj
+ 0002:00001280       __unwindtable$??$?0U_Creator@_Dir_enum_impl@filesystem@std@@ABW4directory_options@23@@?$_Ref_count_obj@U_Dir_enum_impl@filesystem@std@@@std@@QAE@$$QAU_Creator@_Dir_enum_impl@filesystem@1@ABW4directory_options@41@@Z 0040b280     browseTheFolderTree.obj
+ 0002:00001288       __unwindtable$___std_fs_get_stats@16 0040b288     msvcprt:filesystem.obj
+ 0002:000012a0       __ehfuncinfo$___std_fs_get_stats@16 0040b2a0     msvcprt:filesystem.obj
+ 0002:000012c8       __sehtable$?__scrt_common_main_seh@@YAHXZ 0040b2c8     MSVCRT:exe_main.obj
+ 0002:00001358       __sehtable$___scrt_is_nonwritable_in_current_image 0040b358     MSVCRT:utility.obj
+ 0002:00001450       .edata                     0040b450     ProcessingAndSelectionOfInputData.exp
+ 0002:00001478       rgpv                       0040b478     ProcessingAndSelectionOfInputData.exp
+ 0002:0000147c       rgszName                   0040b47c     ProcessingAndSelectionOfInputData.exp
+ 0002:00001480       rgwOrd                     0040b480     ProcessingAndSelectionOfInputData.exp
+ 0002:00001482       szName                     0040b482     ProcessingAndSelectionOfInputData.exp
+ 0002:000014a8       $N00001                    0040b4a8     ProcessingAndSelectionOfInputData.exp
+ 0002:00001706       .idata$6                   0040b706     kernel32:KERNEL32.dll
+ 0002:00001818       .idata$6                   0040b818     msvcprt:MSVCP140.dll
+ 0002:000018c4       .idata$6                   0040b8c4     vcruntime:VCRUNTIME140.dll
+ 0002:00001b10       .idata$6                   0040bb10     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001b30       .idata$6                   0040bb30     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0002:00001b52       .idata$6                   0040bb52     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00001b74       .idata$6                   0040bb74     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00001b96       .idata$6                   0040bb96     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00001bb6       .idata$6                   0040bbb6     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0003:00000220       _GS_ExceptionRecord        0040c220     MSVCRT:gs_report.obj
+ 0003:00000270       _GS_ContextRecord          0040c270     MSVCRT:gs_report.obj
+ 0003:0000053c       ?module_local_atexit_table@@3U_onexit_table_t@@A 0040c53c     MSVCRT:utility.obj
+ 0003:00000548       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0040c548     MSVCRT:utility.obj
+ 0003:00000554       ?module_local_atexit_table_initialized@@3_NA 0040c554     MSVCRT:utility.obj
+ 0003:00000560       ?is_initialized_as_dll@@3_NA 0040c560     MSVCRT:utility.obj
+ 0004:00000060       $R000000                   0040d060     * linker generated manifest res *

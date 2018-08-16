@@ -1,0 +1,28 @@
+﻿  detectFaces.cpp
+c:\users\alex\source\repos\test\detectfaces\face.h(33): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\alex\source\repos\test\detectfaces\face.h(33): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\set(18): note: see declaration of 'std'
+c:\users\alex\source\repos\test\detectfaces\face.h(33): error C2061: syntax error: identifier 'path'
+c:\users\alex\source\repos\test\detectfaces\face.h(40): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\alex\source\repos\test\detectfaces\face.h(40): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\set(18): note: see declaration of 'std'
+c:\users\alex\source\repos\test\detectfaces\face.h(40): error C2061: syntax error: identifier 'path'
+c:\users\alex\source\repos\test\detectfaces\detectfaces.h(5): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+c:\users\alex\source\repos\test\detectfaces\detectfaces.h(5): error C2039: 'path': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\set(18): note: see declaration of 'std'
+c:\users\alex\source\repos\test\detectfaces\detectfaces.h(5): error C2061: syntax error: identifier 'path'
+c:\users\alex\source\repos\test\detectfaces\detectfaces.h(5): warning C4190: 'detectFaces' has C-linkage specified, but returns UDT 'std::vector<cv::Point,std::allocator<_Ty>>' which is incompatible with C
+          with
+          [
+              _Ty=cv::Point
+          ]
+  c:\users\alex\downloads\opencv\build\include\opencv2\core\core.hpp(2753): note: see declaration of 'std::vector<cv::Point,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=cv::Point
+          ]
+  Detector.cpp
+c:\users\alex\source\repos\test\detectfaces\detector.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alex\source\repos\test\detectfaces\detector.cpp(63): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Face.cpp
+  JsonWriter.cpp

@@ -1,0 +1,10 @@
+﻿  Detector.cpp
+c:\users\alex\source\repos\test\detectfaces\detector.cpp(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alex\source\repos\test\detectfaces\detector.cpp(66): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Face.cpp
+c:\users\alex\source\repos\test\detectfaces\face.cpp(118): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  JsonWriter.cpp
+  detectFaces.cpp
+  Generating Code...
+     Creating library C:\Users\Alex\source\repos\Test\x64\Debug\DetectFaces.lib and object C:\Users\Alex\source\repos\Test\x64\Debug\DetectFaces.exp
+  DetectFaces.vcxproj -> C:\Users\Alex\source\repos\Test\x64\Debug\DetectFaces.dll
